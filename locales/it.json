@@ -1,0 +1,246 @@
+{
+  "copy": {
+    "skip": "Vai al contenuto",
+    "features": "Funzionalità",
+    "screenshots": "Schermate",
+    "download": "Download",
+    "questions": "Domande",
+    "get": "Scarica Bendorithm",
+    "desktop": "AMBIENTE DI PIEGATURA · APPLICAZIONE DESKTOP",
+    "headline": "Dal profilo<br>al programma.",
+    "intro": "Disegna il pezzo. Pianifica le pieghe. Osserva i movimenti della macchina prima di esportare.",
+    "explore": "Esplora l’area di lavoro",
+    "heroNote": "Programmi BEP · Schede di attrezzaggio A4 · 3D + vista tecnica 2D",
+    "artNote": "Il prossimo movimento, ben chiaro.",
+    "real": "SCHERMATE REALI DELL’APPLICAZIONE",
+    "full": "3D completo",
+    "light": "3D leggero",
+    "wire": "Vista tecnica 2D",
+    "drawing": "Disegno",
+    "sameCheck": "Viste diverse. Lo stesso motore di verifica.",
+    "strip1": "Disegna con quote precise",
+    "strip2": "Verifica l’intera sequenza",
+    "strip3": "Esporta un programma verificato",
+    "featuresEyebrow": "UN’UNICA AREA DI LAVORO INTEGRATA",
+    "featuresTitle": "L’intero processo,<br>a colpo d’occhio.",
+    "featuresIntro": "Dalla prima linea alla scheda di attrezzaggio. Scopri gli strumenti già disponibili in Bendorithm.",
+    "scope": "Il supporto delle macchine varia in base al modello. Le verifiche 3D complete e l’esportazione BEP richiedono una geometria macchina supportata e una verifica completata. La simulazione esamina posizioni campionate; controlla l’attrezzaggio reale e le misure della macchina.",
+    "inside": "DENTRO BENDORITHM",
+    "galleryTitle": "Gli strumenti in azione.",
+    "galleryIntro": "Schermate reali acquisite dall’applicazione durante l’uso. Seleziona una vista per osservare i dettagli.",
+    "yourWorkspace": "LA TUA PROSSIMA AREA DI LAVORO",
+    "downloadTitle": "La prossima piega,<br>ben a fuoco.",
+    "downloadIntro": "Bendorithm per il tuo desktop. Trova qui le versioni pubblicate e conserva le schede di attrezzaggio insieme al tuo lavoro.",
+    "downloadWindows": "Scarica per Windows",
+    "downloadSoon": "Download Windows presto disponibile",
+    "releasePending": "Il download pubblico apparirà qui dopo la pubblicazione della prima versione su GitHub.",
+    "platform": "Piattaforma",
+    "programs": "Programmi macchina",
+    "documents": "Schede di attrezzaggio",
+    "interface": "Lingue dell’interfaccia",
+    "license": "Licenza",
+    "offlineLicense": "Attivazione offline · Prova di 3 giorni",
+    "beforeStart": "PRIMA DI INIZIARE",
+    "footer": "Profilo. Processo. Programma.",
+    "list": "Tutte le funzioni di questa sezione",
+    "all": "Tutte le viste",
+    "machine": "Simulazione",
+    "planning": "Pianificazione",
+    "projects": "Progetti",
+    "tools": "Strumenti",
+    "export": "Esportazione",
+    "workspace": "Area di lavoro",
+    "close": "Chiudi schermata",
+    "view": "Visualizza schermata",
+    "videoEyebrow": "DALLA PRIMA LINEA",
+    "videoTitle": "Un pezzo. L’intero processo.",
+    "videoIntro": "Segui un disegno reale dalle impostazioni e dalle quote fino al programma macchina verificato e alla scheda di attrezzaggio A4.",
+    "videoFallback": "Il browser non può riprodurre questo video. Scaricalo per guardarlo.",
+    "trueLength": "LUNGHEZZA REALE",
+    "language": "Lingua del sito",
+    "navigation": "Navigazione principale",
+    "preview": "Vista di anteprima",
+    "screenshotCategory": "Categoria delle schermate",
+    "screenshotDialog": "Schermata dell’applicazione",
+    "version": "Versione",
+    "pageTitle": "Bendorithm — Dal profilo al programma",
+    "pageDescription": "Bendorithm — disegno di profili, pianificazione delle pieghe, simulazione macchina e programmi BEP verificati in un’unica area desktop.",
+    "otherPlatforms": "Altre piattaforme",
+    "platformRoadmap": "macOS · Linux — previsti, non ancora disponibili"
+  },
+  "features": {
+    "drawing": {
+      "title": "Disegna e modifica il profilo",
+      "intro": "Costruisci il pezzo in un’area di lavoro quotata.",
+      "items": [
+        "Disegno libero e inserimento preciso di lunghezza e angolo delle linee",
+        "Griglia, modalità ortogonale, tracciamento polare e aggancio agli oggetti",
+        "Selezione, spostamento, copia e rotazione dei disegni; annulla e ripristina",
+        "Quote allineate, orizzontali, verticali e automatiche",
+        "Disegni sfalsati, geometria speculare e livelli collegati",
+        "Viste frontale, superiore, laterale e 3D; panoramica e zoom",
+        "Importazione CAD con verifica delle unità, del contorno o della linea mediana e selezione dei pezzi"
+      ]
+    },
+    "calculation": {
+      "title": "Trasforma le quote in un programma",
+      "intro": "Mantieni collegati il disegno e i valori macchina.",
+      "items": [
+        "Tabelle dei materiali, spessore, larghezza del pezzo e impostazione di matrice e punzone",
+        "Riferimenti di lunghezza esterna, interna e sulla linea mediana",
+        "Convenzioni di visualizzazione dell’angolo di piega esterno e dell’angolo interno",
+        "Lunghezza sviluppata, angoli di piega e posizioni del riscontro in lunghezza reale",
+        "Ricalcolo controllato con conservazione dei dati BEP importati compatibili",
+        "Modifica dei valori del controllo con ricalcolo e nuova verifica obbligatori",
+        "Ricostruzione del profilo da valori macchina completi e coerenti"
+      ]
+    },
+    "machine": {
+      "title": "Osserva l’intero movimento",
+      "intro": "Esamina le pieghe e i movimenti tra una piega e l’altra.",
+      "items": [
+        "Viste macchina e profilo con riproduzione dell’intera sequenza di piegatura",
+        "Verifiche di piegatura, trasferimento, inserimento, estrazione e assemblaggio sui modelli supportati",
+        "Pausa, selezione della posizione, riavvio, velocità di riproduzione e guide di piegatura",
+        "Indicatori precisi delle posizioni di collisione registrate sulla barra di riproduzione",
+        "Visualizzazioni 3D completo, 3D leggero e vista tecnica 2D",
+        "Riduzione automatica della qualità e vista alternativa quando il 3D non è disponibile",
+        "Verifiche in background con avanzamento, annullamento e invalidazione dei risultati non più attuali"
+      ]
+    },
+    "planning": {
+      "title": "Trova una sequenza realizzabile",
+      "intro": "Esamina le alternative prima di modificare il disegno.",
+      "items": [
+        "Ordine di piegatura manuale con inversione delle estremità e ribaltamento della faccia per ogni passaggio",
+        "Ricerca limitata di ordini alternativi e confronto degli utensili definiti",
+        "Varianti della forma con vincoli dimensionali e angolari supportati",
+        "Solo i candidati completamente verificati e privi di collisioni compaiono come risultati utilizzabili",
+        "Confronto tra originale e proposta, anteprima, applicazione o creazione di una copia",
+        "Indicazioni per cambiare ordine o percorso di trasferimento quando manca un risultato privo di collisioni"
+      ]
+    },
+    "projects": {
+      "title": "Tieni insieme tutto il progetto",
+      "intro": "Organizza più disegni e il loro posizionamento.",
+      "items": [
+        "Progetti con nome e più disegni con impostazioni indipendenti",
+        "Posizioni dei disegni, rotazione, selezione multipla e stato delle collisioni",
+        "Riproduzione del progetto mantenendo i pezzi completati nell’assemblaggio",
+        "Modifica del disegno principale dei livelli collegati, rigenerazione e scollegamento",
+        "File di progetto portabili ed esportazione del progetto cifrata con password",
+        "Controlli al salvataggio, copie di recupero e protezione del lavoro non salvato"
+      ]
+    },
+    "tools": {
+      "title": "Lavora con le impostazioni della tua macchina",
+      "intro": "Usa le definizioni e le misure che hai verificato.",
+      "items": [
+        "Profili macchina, associazione per progetto e impostazioni predefinite per i nuovi progetti",
+        "Dimensioni degli utensili, definizioni locali e contorni dei componenti misurati",
+        "Calibrazione delle posizioni del controllo e delle corse con limiti registrati",
+        "Calibrazione confermata della lunghezza a schermo per macchina, solo per il PDF",
+        "Descrizioni del supporto macchina e modalità di calcolo automatico",
+        "Consultazione e modifica delle tabelle tecnologiche dei materiali"
+      ]
+    },
+    "export": {
+      "title": "Porta il risultato verificato in officina",
+      "intro": "Prepara il programma e una scheda di attrezzaggio leggibile.",
+      "items": [
+        "Esportazione BEP consentita dopo la verifica completa attuale supportata",
+        "Anteprima, stampa e uscita PDF della scheda di attrezzaggio A4",
+        "Materiale, utensili, quote, passaggi di piegatura e lunghezza reale nella scheda",
+        "Lunghezza a schermo facoltativa basata sulla calibrazione macchina confermata",
+        "Esportazione in serie con verifica della prontezza di ogni disegno",
+        "File separati per i programmi macchina e i progetti portabili"
+      ]
+    },
+    "workspace": {
+      "title": "Un’area di lavoro familiare",
+      "intro": "Conserva le copie utili e personalizza l’interfaccia.",
+      "items": [
+        "Libreria locale dei programmi: cartelle, ricerca, anteprime e modelli",
+        "Duplicazione, rinomina, spostamento, eliminazione e annullamento delle azioni nella libreria",
+        "Interfacce in inglese, arabo, tedesco, francese e italiano",
+        "Layout arabo da destra a sinistra, temi chiaro e scuro e preferenze salvate",
+        "Pannelli dell’editor ridimensionabili e comandi di disegno da tastiera",
+        "Attivazione offline, licenze a tempo o perpetue e prova di 3 giorni",
+        "Menu di aiuto con informazioni sull’applicazione e gestione della licenza"
+      ]
+    }
+  },
+  "screenshots": {
+    "drawing": "Disegno del profilo",
+    "dimensions": "Quote e riferimenti",
+    "machine-full": "3D completo",
+    "machine-light": "3D leggero",
+    "machine-wireframe": "Vista tecnica 2D",
+    "results": "Risultati della sequenza verificata",
+    "program": "Programma macchina",
+    "planning": "Pianificazione delle pieghe",
+    "proposal": "Anteprima dell’alternativa",
+    "projects": "Area del progetto",
+    "assembly": "Assemblaggio del progetto",
+    "layers": "Livelli collegati",
+    "offset": "Disegno sfalsato",
+    "cad-import": "Importazione CAD",
+    "setup-sheet": "Scheda di attrezzaggio A4",
+    "batch-export": "Esportazione in serie",
+    "encryption": "Esportazione del progetto cifrata",
+    "machines": "Profili macchina",
+    "tools": "Macchina e utensili",
+    "paper-calibration": "Calibrazione PDF",
+    "travel-calibration": "Calibrazione delle corse",
+    "component-outlines": "Contorni dei componenti",
+    "technology-tables": "Tabelle tecnologiche",
+    "library": "Libreria e modelli",
+    "drawing-defaults": "Impostazioni predefinite del disegno",
+    "arabic": "Interfaccia araba",
+    "welcome": "Una nuova area di lavoro"
+  },
+  "faq": [
+    [
+      "La vista tecnica 2D cambia i risultati della verifica?",
+      "No. La qualità di visualizzazione cambia la presentazione. Il motore di verifica completa e i requisiti di approvazione rimangono gli stessi."
+    ],
+    [
+      "Tutte le macchine supportano l’esportazione BEP?",
+      "No. I calcoli e le verifiche disponibili dipendono dalla macchina selezionata. L’esportazione BEP richiede una geometria completa supportata e una verifica attuale, completata e priva di collisioni."
+    ],
+    [
+      "Posso usare i miei file esistenti?",
+      "Bendorithm apre programmi BEP compatibili e file di progetto portabili. L’importazione CAD comprende la verifica delle unità, dell’interpretazione della geometria, della larghezza del pezzo, del materiale e degli utensili."
+    ],
+    [
+      "Come funziona l’attivazione?",
+      "L’applicazione Windows supporta l’attivazione offline legata al dispositivo e una prova di 3 giorni. La configurazione della prova potrebbe richiedere i diritti di amministratore una sola volta. Per le licenze: Bendorithm@gmail.com."
+    ],
+    [
+      "Gli aggiornamenti arriveranno da GitHub?",
+      "GitHub Releases è il canale di download previsto. La verifica degli aggiornamenti nell’applicazione non è ancora collegata nella versione attuale; il menu di aiuto lo indica esplicitamente."
+    ],
+    [
+      "La simulazione sostituisce la validazione sulla macchina?",
+      "No. Le verifiche usano il modello fornito, le misure e posizioni di movimento campionate. Verifica utensili, comportamento del materiale, limiti macchina e attrezzaggio reale prima della produzione."
+    ],
+    [
+      "Sono previste versioni per macOS e Linux?",
+      "Sì, macOS e Linux sono previsti. La versione attuale è stata sviluppata e testata su Windows. Prima di offrire altri download occorre completare il supporto e i test per ciascuna piattaforma."
+    ]
+  ],
+  "captions": [
+    "Creare un nuovo disegno",
+    "Impostare materiale, spessore, larghezza e utensili",
+    "Verificare le impostazioni del disegno",
+    "Disegnare una geometria precisa da zero",
+    "Verificare le quote del profilo e i valori calcolati",
+    "Verificare ordine di piegatura, angolo e lunghezza reale",
+    "La verifica completa reale approva il disegno",
+    "Esaminare la simulazione macchina",
+    "Esaminare il risultato della verifica completa",
+    "L’esportazione è abilitata per il disegno verificato",
+    "Programma BEP esportato",
+    "Anteprima della scheda di attrezzaggio A4 per stampa o PDF"
+  ]
+}

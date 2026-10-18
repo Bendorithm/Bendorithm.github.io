@@ -1,0 +1,28 @@
+{
+  "duration": 51.8,
+  "initialLoadingTrimmedSeconds": 52.8,
+  "captions": [
+    "en",
+    "ar",
+    "de",
+    "fr",
+    "it"
+  ],
+  "audio": false,
+  "recordedFrom": "Actual source application, no drawing imported or injected; real checks and downloaded BEP.",
+  "workflowSpeed": "original",
+  "formats": [
+    {
+      "file": "walkthrough.webm",
+      "codec": "WebM / VP9",
+      "bytes": 1692456,
+      "sha256": "cc70ec62c0c30e56e911a61c5a36de9533b97d455d7d93374b168c25256e7ea2"
+    },
+    {
+      "file": "walkthrough.mp4",
+      "codec": "MP4 / H.264",
+      "bytes": 2527833,
+      "sha256": "ffd8e2c7921da2ab6c4c153ad079bdb2f4af615a01e2cd7f1d21debe62bf0f71"
+    }
+  ]
+}

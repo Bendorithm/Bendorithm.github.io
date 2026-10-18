@@ -1,0 +1,246 @@
+{
+  "copy": {
+    "skip": "Skip to content",
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "download": "Download",
+    "questions": "Questions",
+    "get": "Get Bendorithm",
+    "desktop": "BENDING WORKSPACE · DESKTOP APPLICATION",
+    "headline": "From profile<br>to program.",
+    "intro": "Draw the part. Plan the bends. See the machine motion before you export.",
+    "explore": "Explore the workspace",
+    "heroNote": "BEP programs · A4 setup sheets · 3D + Engineering 2D",
+    "artNote": "A clear view of your next move.",
+    "real": "ACTUAL APPLICATION",
+    "full": "Full 3D",
+    "light": "Light 3D",
+    "wire": "Engineering 2D",
+    "drawing": "Drawing",
+    "sameCheck": "Display options. Same checking engine.",
+    "strip1": "Draw with dimensions",
+    "strip2": "Inspect the complete sequence",
+    "strip3": "Export a checked program",
+    "featuresEyebrow": "ONE CONNECTED WORKSPACE",
+    "featuresTitle": "The whole workflow,<br>in view.",
+    "featuresIntro": "From the first line to the setup sheet. Explore the tools already inside Bendorithm.",
+    "scope": "Machine support varies by model. Full 3D checks and BEP export require supported machine geometry and a completed check. Simulation uses sampled positions; verify the real machine setup and measurements.",
+    "inside": "INSIDE BENDORITHM",
+    "galleryTitle": "See the actual tools.",
+    "galleryIntro": "Real screenshots captured from the application. Select a view to take a closer look.",
+    "yourWorkspace": "YOUR NEXT WORKSPACE",
+    "downloadTitle": "Bring the next bend<br>into focus.",
+    "downloadIntro": "Bendorithm for your desktop. Find the published builds below and keep the setup notes with your work.",
+    "downloadWindows": "Download for Windows",
+    "downloadSoon": "Windows download coming soon",
+    "releasePending": "The public download will appear here when the first GitHub release is published.",
+    "platform": "Platform",
+    "programs": "Machine programs",
+    "documents": "Setup sheets",
+    "interface": "Interface",
+    "license": "License",
+    "offlineLicense": "Offline activation · 3-day trial",
+    "beforeStart": "BEFORE YOU START",
+    "footer": "Profile. Process. Program.",
+    "list": "Everything in this section",
+    "all": "All views",
+    "machine": "Simulation",
+    "planning": "Planning",
+    "projects": "Projects",
+    "tools": "Tools",
+    "export": "Export",
+    "workspace": "Workspace",
+    "close": "Close screenshot",
+    "view": "View screenshot",
+    "videoEyebrow": "FROM THE FIRST LINE",
+    "videoTitle": "One part. The complete workflow.",
+    "videoIntro": "Watch a real drawing go from setup and dimensions to a checked machine program and an A4 setup sheet.",
+    "videoFallback": "Your browser cannot play this video. Download it to watch.",
+    "trueLength": "TRUE LENGTH",
+    "language": "Website language",
+    "navigation": "Main navigation",
+    "preview": "Preview view",
+    "screenshotCategory": "Screenshot category",
+    "screenshotDialog": "Application screenshot",
+    "version": "Version",
+    "pageTitle": "Bendorithm — From profile to program",
+    "pageDescription": "Bendorithm — profile drawing, bend planning, machine simulation and checked BEP programs in one desktop workspace.",
+    "otherPlatforms": "Other platforms",
+    "platformRoadmap": "macOS · Linux — planned, not yet available"
+  },
+  "features": {
+    "drawing": {
+      "title": "Draw and edit the profile",
+      "intro": "Build the part in a dimensioned workspace.",
+      "items": [
+        "Free drawing and precise line-length / angle entry",
+        "Grid, Ortho, polar tracking and object snapping",
+        "Select, move, copy and rotate drawings; undo and redo",
+        "Aligned, horizontal, vertical and automatic dimensions",
+        "Offset drawings, mirror geometry and linked layers",
+        "Front, top, side and 3D views; pan and zoom",
+        "CAD import with units, outline / centerline review and part selection"
+      ]
+    },
+    "calculation": {
+      "title": "Turn dimensions into a program",
+      "intro": "Keep the drawing and machine values connected.",
+      "items": [
+        "Material tables, thickness, workpiece width, die and punch setup",
+        "Outside, inside and centerline length references",
+        "Outside bend and inside-angle display conventions",
+        "Flat length, bend angles and True Length gauge positions",
+        "Guarded recalculation and preservation of compatible imported BEP data",
+        "Controller-value overrides with recalculation / recheck requirements",
+        "Profile reconstruction from complete, consistent machine values"
+      ]
+    },
+    "machine": {
+      "title": "See the complete movement",
+      "intro": "Inspect the bends and the moves between them.",
+      "items": [
+        "Machine and profile views with full-sequence playback",
+        "Bending, transfer, insertion, removal and assembly checks on supported models",
+        "Pause, seek, restart, playback speed and bend guides",
+        "Recorded collision positions marked precisely on the playback bar",
+        "Full 3D, Light 3D and Engineering 2D display options",
+        "Automatic quality reduction and fallback when 3D is unavailable",
+        "Background checks with progress, cancellation and stale-result invalidation"
+      ]
+    },
+    "planning": {
+      "title": "Find a workable sequence",
+      "intro": "Review alternatives before changing the drawing.",
+      "items": [
+        "Manual bend order and per-step end-for-end turns / face flips",
+        "Bounded alternative-order searches and defined-tool comparisons",
+        "Shape alternatives with supported dimension and angle constraints",
+        "Only fully checked collision-free candidates appear as usable results",
+        "Original / proposed comparison, preview, apply or create a copy",
+        "Guidance to change order or transfer path when no clear result exists"
+      ]
+    },
+    "projects": {
+      "title": "Keep the whole project together",
+      "intro": "Organize multiple drawings and their placement.",
+      "items": [
+        "Named projects and multiple drawings with independent setup",
+        "Drawing positions, rotation, multi-selection and collision status",
+        "Project playback with completed pieces retained in the assembly",
+        "Linked-layer master editing, regeneration and detachment",
+        "Portable project files and password-encrypted project export",
+        "Save guards, recovery copies and unsaved-work protection"
+      ]
+    },
+    "tools": {
+      "title": "Work with your machine setup",
+      "intro": "Use the definitions and measurements you reviewed.",
+      "items": [
+        "Machine profiles, per-project machine binding and new-project defaults",
+        "Tool dimensions, local definitions and measured component outlines",
+        "Controller-position and travel calibration with recorded limits",
+        "Per-machine confirmed Screen Length calibration for PDF only",
+        "Machine support descriptions and Automatic calculation mode",
+        "Material technology-table inspection and editing"
+      ]
+    },
+    "export": {
+      "title": "Take the checked result to the shop",
+      "intro": "Prepare the program and a readable setup sheet.",
+      "items": [
+        "BEP export gated by the current supported full check",
+        "A4 setup-sheet preview, printing and PDF output",
+        "Material, tools, dimensions, bend steps and True Length on the sheet",
+        "Optional Screen Length using the confirmed machine calibration",
+        "Batch export with per-drawing readiness review",
+        "Separate files for machine programs and portable projects"
+      ]
+    },
+    "workspace": {
+      "title": "A workspace that feels familiar",
+      "intro": "Keep useful copies and make the interface your own.",
+      "items": [
+        "Local program library: folders, search, previews and templates",
+        "Duplicate, rename, move, delete and undo library actions",
+        "English, Arabic, German, French and Italian interfaces",
+        "Arabic right-to-left layout, Light / Dark themes and saved appearance",
+        "Resizable editor panels and keyboard drawing commands",
+        "Offline activation, time-limited / lifetime licenses and a 3-day trial",
+        "Help menu with application information and license management"
+      ]
+    }
+  },
+  "screenshots": {
+    "drawing": "Profile drawing",
+    "dimensions": "Dimensions & references",
+    "machine-full": "Full 3D",
+    "machine-light": "Light 3D",
+    "machine-wireframe": "Engineering 2D",
+    "results": "Checked sequence results",
+    "program": "Machine program",
+    "planning": "Bend planning",
+    "proposal": "Alternative preview",
+    "projects": "Project workspace",
+    "assembly": "Project assembly",
+    "layers": "Linked layers",
+    "offset": "Offset drawing",
+    "cad-import": "CAD import",
+    "setup-sheet": "A4 setup sheet",
+    "batch-export": "Batch export",
+    "encryption": "Encrypted project export",
+    "machines": "Machine profiles",
+    "tools": "Machine & tools",
+    "paper-calibration": "PDF calibration",
+    "travel-calibration": "Travel calibration",
+    "component-outlines": "Component outlines",
+    "technology-tables": "Technology tables",
+    "library": "Library & templates",
+    "drawing-defaults": "Drawing defaults",
+    "arabic": "Arabic interface",
+    "welcome": "A fresh workspace"
+  },
+  "faq": [
+    [
+      "Does Engineering 2D change the check results?",
+      "No. Display quality changes the presentation. The full checking engine and its approval requirements stay the same."
+    ],
+    [
+      "Does every machine support BEP export?",
+      "No. Available calculations and checks depend on the selected machine. BEP export requires supported full geometry and a current completed collision-free check."
+    ],
+    [
+      "Can I use my existing files?",
+      "Bendorithm opens compatible BEP programs and portable project files. CAD import includes review of units, geometry interpretation, strip width, material and tools."
+    ],
+    [
+      "How does activation work?",
+      "The Windows application supports offline, device-bound activation and a 3-day trial. Trial setup may require administrator permission once. Contact Bendorithm@gmail.com for licensing."
+    ],
+    [
+      "Will updates come from GitHub?",
+      "GitHub Releases is the planned download channel. In-app update checking is not connected in the current build; the Help menu states this explicitly."
+    ],
+    [
+      "Does simulation replace machine validation?",
+      "No. Checks use the supplied model, measurements and sampled motion positions. Verify tooling, material behavior, machine limits and physical setup before production."
+    ],
+    [
+      "Will there be macOS and Linux versions?",
+      "Yes, macOS and Linux are planned. The current build has been developed and tested on Windows. Other platforms require completed platform support and testing before downloads can be offered."
+    ]
+  ],
+  "captions": [
+    "Create a new drawing",
+    "Set the material, thickness, width and tools",
+    "Review the drawing setup",
+    "Draw precise geometry from scratch",
+    "Review the profile dimensions and calculated values",
+    "Review the bend order, angle and True Length",
+    "The real complete check approves the drawing",
+    "Inspect the machine simulation",
+    "Review the completed full-check result",
+    "Export is enabled for the checked drawing",
+    "BEP program exported",
+    "Preview the A4 setup sheet for printing or PDF"
+  ]
+}

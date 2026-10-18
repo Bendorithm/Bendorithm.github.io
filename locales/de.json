@@ -1,0 +1,246 @@
+{
+  "copy": {
+    "skip": "Zum Inhalt springen",
+    "features": "Funktionen",
+    "screenshots": "Einblicke",
+    "download": "Download",
+    "questions": "Fragen",
+    "get": "Bendorithm laden",
+    "desktop": "ARBEITSPLATZ FÜRS BIEGEN · DESKTOP-ANWENDUNG",
+    "headline": "Vom Profil<br>zum Programm.",
+    "intro": "Zeichnen Sie das Teil. Planen Sie die Biegungen. Prüfen Sie die Maschinenbewegung vor dem Export.",
+    "explore": "Arbeitsbereich entdecken",
+    "heroNote": "BEP-Programme · A4-Einrichtblätter · 3D + technische 2D-Ansicht",
+    "artNote": "Den nächsten Schritt klar im Blick.",
+    "real": "AUFNAHMEN AUS DER ANWENDUNG",
+    "full": "Vollständiges 3D",
+    "light": "Reduziertes 3D",
+    "wire": "Technische 2D-Ansicht",
+    "drawing": "Zeichnung",
+    "sameCheck": "Verschiedene Ansichten. Dieselbe Prüfung.",
+    "strip1": "Maßgenau zeichnen",
+    "strip2": "Den gesamten Ablauf prüfen",
+    "strip3": "Ein geprüftes Programm exportieren",
+    "featuresEyebrow": "EIN VERBUNDENER ARBEITSBEREICH",
+    "featuresTitle": "Den gesamten Ablauf<br>im Blick.",
+    "featuresIntro": "Von der ersten Linie bis zum Einrichtblatt. Entdecken Sie die bereits verfügbaren Werkzeuge in Bendorithm.",
+    "scope": "Die Maschinenunterstützung hängt vom Modell ab. Vollständige 3D-Prüfungen und der BEP-Export erfordern unterstützte Maschinengeometrie und eine abgeschlossene Prüfung. Die Simulation prüft abgetastete Positionen; kontrollieren Sie die tatsächliche Maschineneinrichtung und die Maße.",
+    "inside": "IN BENDORITHM",
+    "galleryTitle": "Die Werkzeuge im Einsatz.",
+    "galleryIntro": "Echte Bildschirmaufnahmen aus der Anwendung. Wählen Sie eine Ansicht, um die Details zu sehen.",
+    "yourWorkspace": "IHR NÄCHSTER ARBEITSBEREICH",
+    "downloadTitle": "Die nächste Biegung<br>klar vor Augen.",
+    "downloadIntro": "Bendorithm für Ihren Desktop. Hier finden Sie veröffentlichte Versionen; bewahren Sie die Einrichtblätter bei Ihrer Arbeit auf.",
+    "downloadWindows": "Für Windows herunterladen",
+    "downloadSoon": "Windows-Download in Kürze",
+    "releasePending": "Der öffentliche Download erscheint hier, sobald die erste Version auf GitHub veröffentlicht ist.",
+    "platform": "Plattform",
+    "programs": "Maschinenprogramme",
+    "documents": "Einrichtblätter",
+    "interface": "Oberflächensprachen",
+    "license": "Lizenz",
+    "offlineLicense": "Offline-Aktivierung · 3 Tage testen",
+    "beforeStart": "VOR DEM START",
+    "footer": "Profil. Ablauf. Programm.",
+    "list": "Alle Funktionen dieses Bereichs",
+    "all": "Alle Ansichten",
+    "machine": "Simulation",
+    "planning": "Planung",
+    "projects": "Projekte",
+    "tools": "Werkzeuge",
+    "export": "Export",
+    "workspace": "Arbeitsbereich",
+    "close": "Bildschirmaufnahme schließen",
+    "view": "Bildschirmaufnahme ansehen",
+    "videoEyebrow": "VON DER ERSTEN LINIE AN",
+    "videoTitle": "Ein Teil. Der gesamte Ablauf.",
+    "videoIntro": "Verfolgen Sie eine echte Zeichnung von Einrichtung und Bemaßung bis zum geprüften Maschinenprogramm und A4-Einrichtblatt.",
+    "videoFallback": "Ihr Browser kann dieses Video nicht abspielen. Laden Sie es zum Ansehen herunter.",
+    "trueLength": "WAHRE LÄNGE",
+    "language": "Sprache der Website",
+    "navigation": "Hauptnavigation",
+    "preview": "Vorschauansicht",
+    "screenshotCategory": "Kategorie der Bildschirmaufnahmen",
+    "screenshotDialog": "Bildschirmaufnahme der Anwendung",
+    "version": "Version",
+    "pageTitle": "Bendorithm — Vom Profil zum Programm",
+    "pageDescription": "Bendorithm — Profilzeichnung, Biegeplanung, Maschinensimulation und geprüfte BEP-Programme in einem Desktop-Arbeitsbereich.",
+    "otherPlatforms": "Weitere Plattformen",
+    "platformRoadmap": "macOS · Linux — geplant, noch nicht verfügbar"
+  },
+  "features": {
+    "drawing": {
+      "title": "Profile zeichnen und bearbeiten",
+      "intro": "Erstellen Sie das Teil in einem bemaßten Arbeitsbereich.",
+      "items": [
+        "Freies Zeichnen und präzise Eingabe von Linienlänge und Winkel",
+        "Raster, Orthomodus, Polarverfolgung und Objektfang",
+        "Zeichnungen auswählen, verschieben, kopieren und drehen; Rückgängig und Wiederholen",
+        "Ausgerichtete, horizontale, vertikale und automatische Bemaßung",
+        "Versetzte Zeichnungen, gespiegelte Geometrie und verknüpfte Ebenen",
+        "Vorder-, Drauf-, Seiten- und 3D-Ansicht; Verschieben und Zoomen",
+        "CAD-Import mit Prüfung von Einheiten, Kontur oder Mittellinie und Teileauswahl"
+      ]
+    },
+    "calculation": {
+      "title": "Maße in ein Programm umsetzen",
+      "intro": "Zeichnung und Maschinenwerte bleiben verbunden.",
+      "items": [
+        "Materialtabellen, Dicke, Werkstückbreite sowie Matrizen- und Stempeleinrichtung",
+        "Längenbezüge auf Außenkante, Innenkante oder Mittellinie",
+        "Anzeige von äußerem Biegewinkel und Innenwinkel",
+        "Abwicklungslänge, Biegewinkel und Anschlagpositionen nach wahrer Länge",
+        "Abgesicherte Neuberechnung unter Erhalt kompatibler importierter BEP-Daten",
+        "Anpassbare Steuerungswerte mit erforderlicher Neuberechnung und erneuter Prüfung",
+        "Profilrekonstruktion aus vollständigen, konsistenten Maschinenwerten"
+      ]
+    },
+    "machine": {
+      "title": "Die gesamte Bewegung sehen",
+      "intro": "Prüfen Sie die Biegungen und die Bewegungen dazwischen.",
+      "items": [
+        "Maschinen- und Profilansichten mit Wiedergabe der gesamten Biegefolge",
+        "Prüfung von Biegen, Transfer, Einführen, Entnehmen und Zusammenbau bei unterstützten Modellen",
+        "Pause, Positionswahl, Neustart, Wiedergabegeschwindigkeit und Biegehilfen",
+        "Präzise Markierungen erfasster Kollisionspositionen auf der Wiedergabeleiste",
+        "Vollständiges 3D, reduziertes 3D und technische 2D-Ansicht",
+        "Automatische Qualitätsreduzierung und Ersatzansicht, wenn 3D nicht verfügbar ist",
+        "Hintergrundprüfungen mit Fortschritt und Abbruch; veraltete Ergebnisse werden ungültig"
+      ]
+    },
+    "planning": {
+      "title": "Eine passende Biegefolge finden",
+      "intro": "Prüfen Sie Alternativen, bevor Sie die Zeichnung ändern.",
+      "items": [
+        "Manuelle Biegefolge mit Drehen von Ende zu Ende und Wenden je Schritt",
+        "Begrenzte Suche nach alternativen Folgen und Vergleich definierter Werkzeuge",
+        "Formalternativen mit unterstützten Maß- und Winkelvorgaben",
+        "Nur vollständig geprüfte, kollisionsfreie Vorschläge erscheinen als nutzbare Ergebnisse",
+        "Original und Vorschlag vergleichen, Vorschau öffnen, anwenden oder eine Kopie erstellen",
+        "Hinweise zur Änderung von Reihenfolge oder Transferweg, wenn kein kollisionsfreies Ergebnis vorliegt"
+      ]
+    },
+    "projects": {
+      "title": "Das gesamte Projekt zusammenhalten",
+      "intro": "Organisieren Sie mehrere Zeichnungen und ihre Anordnung.",
+      "items": [
+        "Benannte Projekte und mehrere Zeichnungen mit unabhängigen Einstellungen",
+        "Zeichnungspositionen, Drehung, Mehrfachauswahl und Kollisionsstatus",
+        "Projektwiedergabe mit fertigen Teilen im Zusammenbau",
+        "Hauptzeichnung verknüpfter Ebenen bearbeiten, Ebenen neu erzeugen oder lösen",
+        "Übertragbare Projektdateien und passwortverschlüsselter Projektexport",
+        "Speicherprüfungen, Wiederherstellungskopien und Schutz ungesicherter Arbeit"
+      ]
+    },
+    "tools": {
+      "title": "Mit Ihren Maschinendaten arbeiten",
+      "intro": "Verwenden Sie die geprüften Definitionen und Messwerte.",
+      "items": [
+        "Maschinenprofile, Maschinenzuordnung je Projekt und Vorgaben für neue Projekte",
+        "Werkzeugmaße, lokale Definitionen und vermessene Komponentenkonturen",
+        "Kalibrierung von Steuerungspositionen und Verfahrwegen mit erfassten Grenzen",
+        "Bestätigte Kalibrierung der Anzeigelänge je Maschine, ausschließlich für PDF",
+        "Angaben zur Maschinenunterstützung und automatischer Berechnungsmodus",
+        "Material-Technologietabellen ansehen und bearbeiten"
+      ]
+    },
+    "export": {
+      "title": "Das geprüfte Ergebnis in die Fertigung bringen",
+      "intro": "Bereiten Sie das Programm und ein lesbares Einrichtblatt vor.",
+      "items": [
+        "BEP-Export erst nach der aktuellen unterstützten vollständigen Prüfung",
+        "A4-Einrichtblatt mit Vorschau, Druck und PDF-Ausgabe",
+        "Material, Werkzeuge, Maße, Biegeschritte und wahre Länge auf dem Blatt",
+        "Optionale Anzeigelänge anhand der bestätigten Maschinenkalibrierung",
+        "Stapelexport mit Prüfung der Bereitschaft jeder Zeichnung",
+        "Getrennte Dateien für Maschinenprogramme und übertragbare Projekte"
+      ]
+    },
+    "workspace": {
+      "title": "Ein vertrauter Arbeitsbereich",
+      "intro": "Bewahren Sie nützliche Kopien auf und passen Sie die Oberfläche an.",
+      "items": [
+        "Lokale Programmbibliothek mit Ordnern, Suche, Vorschauen und Vorlagen",
+        "Bibliothekseinträge duplizieren, umbenennen, verschieben, löschen und Aktionen rückgängig machen",
+        "Oberflächen auf Englisch, Arabisch, Deutsch, Französisch und Italienisch",
+        "Arabisches Layout von rechts nach links, helles und dunkles Design sowie gespeicherte Darstellung",
+        "Editorbereiche mit veränderbarer Größe und Zeichenbefehle per Tastatur",
+        "Offline-Aktivierung, befristete oder unbefristete Lizenzen und 3 Tage Testzeit",
+        "Hilfemenü mit Anwendungsinformationen und Lizenzverwaltung"
+      ]
+    }
+  },
+  "screenshots": {
+    "drawing": "Profilzeichnung",
+    "dimensions": "Maße und Bezüge",
+    "machine-full": "Vollständiges 3D",
+    "machine-light": "Reduziertes 3D",
+    "machine-wireframe": "Technische 2D-Ansicht",
+    "results": "Geprüfte Biegefolge",
+    "program": "Maschinenprogramm",
+    "planning": "Biegeplanung",
+    "proposal": "Alternativvorschau",
+    "projects": "Projektarbeitsbereich",
+    "assembly": "Projektzusammenbau",
+    "layers": "Verknüpfte Ebenen",
+    "offset": "Versetzte Zeichnung",
+    "cad-import": "CAD-Import",
+    "setup-sheet": "A4-Einrichtblatt",
+    "batch-export": "Stapelexport",
+    "encryption": "Verschlüsselter Projektexport",
+    "machines": "Maschinenprofile",
+    "tools": "Maschine und Werkzeuge",
+    "paper-calibration": "PDF-Kalibrierung",
+    "travel-calibration": "Verfahrwegkalibrierung",
+    "component-outlines": "Komponentenkonturen",
+    "technology-tables": "Technologietabellen",
+    "library": "Bibliothek und Vorlagen",
+    "drawing-defaults": "Zeichnungsvorgaben",
+    "arabic": "Arabische Oberfläche",
+    "welcome": "Ein neuer Arbeitsbereich"
+  },
+  "faq": [
+    [
+      "Ändert die technische 2D-Ansicht die Prüfergebnisse?",
+      "Nein. Die Anzeigequalität verändert die Darstellung. Die vollständige Prüflogik und die Freigabebedingungen bleiben gleich."
+    ],
+    [
+      "Unterstützt jede Maschine den BEP-Export?",
+      "Nein. Verfügbare Berechnungen und Prüfungen hängen von der ausgewählten Maschine ab. Der BEP-Export erfordert unterstützte vollständige Geometrie und eine aktuelle, abgeschlossene, kollisionsfreie Prüfung."
+    ],
+    [
+      "Kann ich meine vorhandenen Dateien verwenden?",
+      "Bendorithm öffnet kompatible BEP-Programme und übertragbare Projektdateien. Beim CAD-Import werden Einheiten, Geometrieinterpretation, Werkstückbreite, Material und Werkzeuge geprüft."
+    ],
+    [
+      "Wie funktioniert die Aktivierung?",
+      "Die Windows-Anwendung unterstützt eine gerätegebundene Offline-Aktivierung und eine dreitägige Testversion. Zum Einrichten der Testversion sind eventuell einmalig Administratorrechte nötig. Lizenzkontakt: Bendorithm@gmail.com."
+    ],
+    [
+      "Kommen Updates von GitHub?",
+      "GitHub Releases ist als Downloadkanal vorgesehen. Die Updateprüfung in der Anwendung ist im aktuellen Build noch nicht angebunden; das Hilfemenü weist ausdrücklich darauf hin."
+    ],
+    [
+      "Ersetzt die Simulation die Prüfung an der Maschine?",
+      "Nein. Die Prüfungen verwenden das vorgegebene Modell, die Messwerte und abgetastete Bewegungspositionen. Prüfen Sie Werkzeuge, Materialverhalten, Maschinengrenzen und tatsächliche Einrichtung vor der Fertigung."
+    ],
+    [
+      "Wird es Versionen für macOS und Linux geben?",
+      "Ja, macOS und Linux sind geplant. Der aktuelle Build wurde unter Windows entwickelt und getestet. Für weitere Plattformen müssen die jeweilige Unterstützung und die Tests abgeschlossen sein, bevor Downloads angeboten werden."
+    ]
+  ],
+  "captions": [
+    "Eine neue Zeichnung erstellen",
+    "Material, Dicke, Breite und Werkzeuge festlegen",
+    "Zeichnungseinstellungen prüfen",
+    "Präzise Geometrie von Grund auf zeichnen",
+    "Profilmaße und berechnete Werte prüfen",
+    "Biegefolge, Winkel und wahre Länge prüfen",
+    "Die echte vollständige Prüfung gibt die Zeichnung frei",
+    "Maschinensimulation ansehen",
+    "Das Ergebnis der vollständigen Prüfung prüfen",
+    "Export für die geprüfte Zeichnung freigeschaltet",
+    "BEP-Programm exportiert",
+    "A4-Einrichtblatt für Druck oder PDF ansehen"
+  ]
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "welcome",
+    "feature": "Welcome and project creation",
+    "sha256": "38c4b6db294e418943263315fd87097235d682d0f0f3e65a05c0fd99b3e6631a",
+    "capturedAt": "2026-10-18T20:17:44.514Z"
+  },
+  {
+    "id": "drawing",
+    "feature": "Profile drawing and precise setup",
+    "sha256": "b822598bb7a8c2cdcb1ccfea6b8759ad5af897254c7208bdacfa3eff80515cae",
+    "capturedAt": "2026-10-18T20:17:54.423Z"
+  },
+  {
+    "id": "dimensions",
+    "feature": "Drawing dimensions and angle references",
+    "sha256": "bf7ace08f93b9cdf1bd7d6b1bf93a8e609d5745887176f47fc301f54b4b62f9b",
+    "capturedAt": "2026-10-18T20:17:55.310Z"
+  },
+  {
+    "id": "program",
+    "feature": "Bend order and machine program values",
+    "sha256": "335cc9175fe11e69b64297c33ef3ab73b54f5c759d4cf0ab135e15a83d35f052",
+    "capturedAt": "2026-10-18T20:17:56.208Z"
+  },
+  {
+    "id": "machine-light",
+    "feature": "Light 3D machine preview",
+    "sha256": "47bdd6bab6d41c237e12fa582d87f674cf5f5d7949e64b3d91c41cd2d9d045bb",
+    "capturedAt": "2026-10-18T20:17:57.348Z"
+  },
+  {
+    "id": "machine-full",
+    "feature": "Full 3D presentation",
+    "sha256": "fb89e51cff7e42f183809ddc6e7668460c8f2ac189b2096e3bab056fbb4ac369",
+    "capturedAt": "2026-10-18T20:17:59.642Z"
+  },
+  {
+    "id": "results",
+    "feature": "Completed collision-free full sequence check",
+    "sha256": "8fb7aa3c6000806fe9d0e436f4107e567a2f89379b5585620a7fc5ce6d01cc41",
+    "capturedAt": "2026-10-18T20:18:00.609Z"
+  },
+  {
+    "id": "machine-wireframe",
+    "feature": "Engineering 2D with the same check results",
+    "sha256": "a779c6e1a1d3d888d17ff75833139962b6051f6a10e360c5def51ecd37df8d07",
+    "capturedAt": "2026-10-18T20:18:01.611Z"
+  },
+  {
+    "id": "setup-sheet",
+    "feature": "A4 setup-sheet preview and PDF export",
+    "sha256": "3592fb3db617e4769bd464dcfb876256d3701d3cd1a17b7309fa0b799060ba46",
+    "capturedAt": "2026-10-18T20:18:02.597Z"
+  },
+  {
+    "id": "machines",
+    "feature": "Machine profiles",
+    "sha256": "17324f1b1d8baad39308f55c3cc37d86041a3315257ee2ae7840ce923c88c71e",
+    "capturedAt": "2026-10-18T20:18:03.805Z"
+  },
+  {
+    "id": "paper-calibration",
+    "feature": "Per-machine Screen Length calibration",
+    "sha256": "994791835dfc1039d186312d288f18b596c08ab8b9f3fb5459242d31fd07a745",
+    "capturedAt": "2026-10-18T20:18:04.686Z"
+  },
+  {
+    "id": "tools",
+    "feature": "Machine & tools",
+    "sha256": "f8dada954f715416b461dc2ca37e47efd3c894aefe2452932d53877c76c9c67e",
+    "capturedAt": "2026-10-18T20:18:05.727Z"
+  },
+  {
+    "id": "travel-calibration",
+    "feature": "Travel calibration",
+    "sha256": "8cdb5276f46d9d20341bb2bece0dc339753438edbe5541b841bc41575a11bc8e",
+    "capturedAt": "2026-10-18T20:18:06.593Z"
+  },
+  {
+    "id": "component-outlines",
+    "feature": "Component outlines",
+    "sha256": "bc24244a8338c1771ab713ea2009adc3e059079e4375658c71475a7da0a06319",
+    "capturedAt": "2026-10-18T20:18:07.478Z"
+  },
+  {
+    "id": "drawing-defaults",
+    "feature": "Drawing defaults",
+    "sha256": "706f04cc8b95a9fc491cd395c3a06e64152ec4943f04583dd3bf52b23a8f5ac7",
+    "capturedAt": "2026-10-18T20:18:08.348Z"
+  },
+  {
+    "id": "technology-tables",
+    "feature": "Material technology tables",
+    "sha256": "638fd87dd7b32486579a282440567d50ca2906f6f4750620fd005ada7bca7d0c",
+    "capturedAt": "2026-10-18T20:18:09.240Z"
+  },
+  {
+    "id": "library",
+    "feature": "Local library and templates",
+    "sha256": "d5a0ecb5948015e03370c53eb99bdeba049b03c1f9a5d38af3e7d2348e535e16",
+    "capturedAt": "2026-10-18T20:18:10.089Z"
+  },
+  {
+    "id": "planning",
+    "feature": "Bend alternatives and planning controls",
+    "sha256": "3000de1c15d89f85676063af9b255bbad2ca9ec1109370064520a0775b714c20",
+    "capturedAt": "2026-10-18T20:18:11.390Z"
+  },
+  {
+    "id": "cad-import",
+    "feature": "CAD import options",
+    "sha256": "71743724a72e941007c8b42212141c9112de8c7a01ae43e04d33be793132d675",
+    "capturedAt": "2026-10-18T20:18:12.346Z"
+  },
+  {
+    "id": "arabic",
+    "feature": "Arabic right-to-left interface",
+    "sha256": "c1488b1e10f16b7bd36cb3a8439a2664f4b7943da91f8bd21a73bc113c802bca",
+    "capturedAt": "2026-10-18T20:18:13.376Z"
+  },
+  {
+    "id": "projects",
+    "feature": "Multiple drawings in a project",
+    "sha256": "668a5fa462edd9a4e8df1a0a0b157d4540cd423255a70703a27deb037b03deff",
+    "capturedAt": "2026-10-18T20:21:39.540Z"
+  },
+  {
+    "id": "batch-export",
+    "feature": "Per-drawing batch export readiness",
+    "sha256": "849c1d5571f9396f8e3558cbc7965d1c222a85b427763dbb7cbd18e628ef0cce",
+    "capturedAt": "2026-10-18T20:22:10.390Z"
+  },
+  {
+    "id": "encryption",
+    "feature": "Password-encrypted portable project export",
+    "sha256": "e4bcc0ee423ed0a9b77918c9a30f2634e71f80e71c33f40f4241206fb44da29c",
+    "capturedAt": "2026-10-18T20:22:11.639Z"
+  },
+  {
+    "id": "layers",
+    "feature": "Linked layer creation controls",
+    "sha256": "95dedf781b187bf6e9bac0dfe1cc19254b7c46634c40947b6721d2e1d8514cae",
+    "capturedAt": "2026-10-18T20:22:12.849Z"
+  },
+  {
+    "id": "offset",
+    "feature": "Offset preview",
+    "sha256": "c2c9a6d35c39efab340e82819a5570de34d7d94781b3c52eb85a2d054063d1dd",
+    "capturedAt": "2026-10-18T20:22:13.938Z"
+  },
+  {
+    "id": "proposal",
+    "feature": "A fully checked alternative preview",
+    "sha256": "43ae592e4fb7765128c98d607626b0496e7431ac5b48fc30cb4d96b8b21839f3",
+    "capturedAt": "2026-10-18T20:22:36.526Z"
+  },
+  {
+    "id": "assembly",
+    "feature": "Project assembly simulation with real project checks",
+    "sha256": "ecf2257c62e2ab37eb4eae1645fb3ec88ccbcefc0f8c1cf62040ffea0027534f",
+    "capturedAt": "2026-10-18T20:23:03.405Z"
+  }
+]
