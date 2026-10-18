@@ -2,163 +2,433 @@
   {
     "id": "welcome",
     "feature": "Welcome and project creation",
-    "sha256": "38c4b6db294e418943263315fd87097235d682d0f0f3e65a05c0fd99b3e6631a",
-    "capturedAt": "2026-10-18T20:17:44.514Z"
+    "sha256": "120fa96e11cfbbceacca3bf0cd456188c592b5d7bca88e0cd8defc01b98c3087",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/welcome.webp",
+        "sha256": "120fa96e11cfbbceacca3bf0cd456188c592b5d7bca88e0cd8defc01b98c3087"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/welcome.webp",
+        "sha256": "6621e439418f1f039ecac16cbd65bdbf20b88905fbd5811053f11c8481be6b65"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:05.178Z"
   },
   {
     "id": "drawing",
     "feature": "Profile drawing and precise setup",
-    "sha256": "b822598bb7a8c2cdcb1ccfea6b8759ad5af897254c7208bdacfa3eff80515cae",
-    "capturedAt": "2026-10-18T20:17:54.423Z"
+    "sha256": "49fa1148cff1a767dbeb5ee7f79425cc76bbbaa0fc8669721c30f9cd93e87770",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/drawing.webp",
+        "sha256": "49fa1148cff1a767dbeb5ee7f79425cc76bbbaa0fc8669721c30f9cd93e87770"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/drawing.webp",
+        "sha256": "e6f2ccf661ef57c564f3e19c9e1b71ee9805d68243136a879bbd4ce2fd335bad"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:18.736Z"
   },
   {
     "id": "dimensions",
     "feature": "Drawing dimensions and angle references",
-    "sha256": "bf7ace08f93b9cdf1bd7d6b1bf93a8e609d5745887176f47fc301f54b4b62f9b",
-    "capturedAt": "2026-10-18T20:17:55.310Z"
+    "sha256": "df4cf1923c277bea653d9a8b52354f9084e88e871ebfecb97fe1076acd2b34b4",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/dimensions.webp",
+        "sha256": "df4cf1923c277bea653d9a8b52354f9084e88e871ebfecb97fe1076acd2b34b4"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/dimensions.webp",
+        "sha256": "c574c7fc0d937b96297a2a5b58200cfffea38b2500e4854647406857e6ca9503"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:21.896Z"
   },
   {
     "id": "program",
     "feature": "Bend order and machine program values",
-    "sha256": "335cc9175fe11e69b64297c33ef3ab73b54f5c759d4cf0ab135e15a83d35f052",
-    "capturedAt": "2026-10-18T20:17:56.208Z"
+    "sha256": "30fe30f169c2a999271fd211098aaf6cf88073fcc7385e6b2590ed1eeda6f455",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/program.webp",
+        "sha256": "30fe30f169c2a999271fd211098aaf6cf88073fcc7385e6b2590ed1eeda6f455"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/program.webp",
+        "sha256": "8efd75fd12550b519428e9bae7f38e512675dd2d37459c1b0da1cdf6155e7e8a"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:24.841Z"
   },
   {
     "id": "machine-light",
     "feature": "Light 3D machine preview",
-    "sha256": "47bdd6bab6d41c237e12fa582d87f674cf5f5d7949e64b3d91c41cd2d9d045bb",
-    "capturedAt": "2026-10-18T20:17:57.348Z"
+    "sha256": "47fa79064e56a641c969f007b9a2e0e46b2d9e6a99a84563661b5c1c43dab2ac",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/machine-light.webp",
+        "sha256": "47fa79064e56a641c969f007b9a2e0e46b2d9e6a99a84563661b5c1c43dab2ac"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/machine-light.webp",
+        "sha256": "64d681a4eb78cef86018359e78cc5270389b10da3574dc9951dde1fdcda45b3c"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:28.151Z"
   },
   {
     "id": "machine-full",
     "feature": "Full 3D presentation",
-    "sha256": "fb89e51cff7e42f183809ddc6e7668460c8f2ac189b2096e3bab056fbb4ac369",
-    "capturedAt": "2026-10-18T20:17:59.642Z"
+    "sha256": "979f4c0203c558faa3c4174a33e77e3bf7cadb1f692e8beacc423f505c730723",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/machine-full.webp",
+        "sha256": "979f4c0203c558faa3c4174a33e77e3bf7cadb1f692e8beacc423f505c730723"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/machine-full.webp",
+        "sha256": "ea2e850f3fc6a121fa61dca19444e7a31fe94b006832cbb15f02e6ee6667bb6e"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:35.091Z"
   },
   {
     "id": "results",
     "feature": "Completed collision-free full sequence check",
-    "sha256": "8fb7aa3c6000806fe9d0e436f4107e567a2f89379b5585620a7fc5ce6d01cc41",
-    "capturedAt": "2026-10-18T20:18:00.609Z"
+    "sha256": "5aca96b46dcd6fc38a77be2107d933c37525a44cadddb90a17c5c59a68dfc666",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/results.webp",
+        "sha256": "5aca96b46dcd6fc38a77be2107d933c37525a44cadddb90a17c5c59a68dfc666"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/results.webp",
+        "sha256": "7eeb8bddd577037d72a97da67306f68c05dac2bb8ca32a5789939417d576287b"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:40.694Z"
   },
   {
     "id": "machine-wireframe",
     "feature": "Engineering 2D with the same check results",
-    "sha256": "a779c6e1a1d3d888d17ff75833139962b6051f6a10e360c5def51ecd37df8d07",
-    "capturedAt": "2026-10-18T20:18:01.611Z"
+    "sha256": "de7210f7f51bbe727d743b3b60da04afa64257cac6fc76faca21dbb270f96a45",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/machine-wireframe.webp",
+        "sha256": "de7210f7f51bbe727d743b3b60da04afa64257cac6fc76faca21dbb270f96a45"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/machine-wireframe.webp",
+        "sha256": "46e4c6e3b9582def789bf25c97f2faca0c672ad10976e50e972a509b81644b50"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:43.692Z"
   },
   {
     "id": "setup-sheet",
     "feature": "A4 setup-sheet preview and PDF export",
-    "sha256": "3592fb3db617e4769bd464dcfb876256d3701d3cd1a17b7309fa0b799060ba46",
-    "capturedAt": "2026-10-18T20:18:02.597Z"
+    "sha256": "83f213f3b83dc2efce4da1bf67d5154ca7dd5100959acac08e3b8a49ea18a41d",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/setup-sheet.webp",
+        "sha256": "83f213f3b83dc2efce4da1bf67d5154ca7dd5100959acac08e3b8a49ea18a41d"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/setup-sheet.webp",
+        "sha256": "7b5de588259f4db1e22a885f5e560f07dbb6e4baeb4a0cd88c68a4bdeb6098f1"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:46.296Z"
   },
   {
     "id": "machines",
     "feature": "Machine profiles",
-    "sha256": "17324f1b1d8baad39308f55c3cc37d86041a3315257ee2ae7840ce923c88c71e",
-    "capturedAt": "2026-10-18T20:18:03.805Z"
+    "sha256": "737e20988fa8047a6057bb2ebfcc5c04d2dbf2fdca0658b5466e6d55b29549cb",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/machines.webp",
+        "sha256": "737e20988fa8047a6057bb2ebfcc5c04d2dbf2fdca0658b5466e6d55b29549cb"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/machines.webp",
+        "sha256": "6781f563ec61d613b3292797ad805093c24be653d1e7fd6ff12b2a26f412b1e7"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:51.207Z"
   },
   {
     "id": "paper-calibration",
     "feature": "Per-machine Screen Length calibration",
-    "sha256": "994791835dfc1039d186312d288f18b596c08ab8b9f3fb5459242d31fd07a745",
-    "capturedAt": "2026-10-18T20:18:04.686Z"
+    "sha256": "3261ba6969b49a986ba632adf7f7a94ec2d2fa42871fe9f35bef163047c3fe6e",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/paper-calibration.webp",
+        "sha256": "3261ba6969b49a986ba632adf7f7a94ec2d2fa42871fe9f35bef163047c3fe6e"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/paper-calibration.webp",
+        "sha256": "6607e8b10ef0920727a92f76d755b455ca15d626c4ce3425a7c1fb60564dd091"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:55.695Z"
   },
   {
     "id": "tools",
     "feature": "Machine & tools",
-    "sha256": "f8dada954f715416b461dc2ca37e47efd3c894aefe2452932d53877c76c9c67e",
-    "capturedAt": "2026-10-18T20:18:05.727Z"
+    "sha256": "3f66b88e2a77a7bcedb330d53ea2ba533602c90c82855e2a1574250d0bfdd3cf",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/tools.webp",
+        "sha256": "3f66b88e2a77a7bcedb330d53ea2ba533602c90c82855e2a1574250d0bfdd3cf"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/tools.webp",
+        "sha256": "b71a24af74efbcd336e071168ee839b5e0f2262b7b2481c74d4bf1f64430ad0a"
+      }
+    },
+    "capturedAt": "2026-10-18T21:38:58.815Z"
   },
   {
     "id": "travel-calibration",
     "feature": "Travel calibration",
-    "sha256": "8cdb5276f46d9d20341bb2bece0dc339753438edbe5541b841bc41575a11bc8e",
-    "capturedAt": "2026-10-18T20:18:06.593Z"
+    "sha256": "54a714e257ebbe3d85e486e95842e261e40846091860238f9a6aecc8e747a289",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/travel-calibration.webp",
+        "sha256": "54a714e257ebbe3d85e486e95842e261e40846091860238f9a6aecc8e747a289"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/travel-calibration.webp",
+        "sha256": "cab435aaf5a6adc8d4e93a9695b8cd69c32980f88fa73e961f283af5064232f3"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:01.592Z"
   },
   {
     "id": "component-outlines",
     "feature": "Component outlines",
-    "sha256": "bc24244a8338c1771ab713ea2009adc3e059079e4375658c71475a7da0a06319",
-    "capturedAt": "2026-10-18T20:18:07.478Z"
+    "sha256": "4f74e06ecb1a364352b64fbe9500b2da6352c4d0bbe2fe28194eecc67f872dcd",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/component-outlines.webp",
+        "sha256": "4f74e06ecb1a364352b64fbe9500b2da6352c4d0bbe2fe28194eecc67f872dcd"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/component-outlines.webp",
+        "sha256": "2f91c908507738742c32033b7fe3c242b8cec43fd0e921d3383bf3a8d4799fdf"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:04.234Z"
   },
   {
     "id": "drawing-defaults",
     "feature": "Drawing defaults",
-    "sha256": "706f04cc8b95a9fc491cd395c3a06e64152ec4943f04583dd3bf52b23a8f5ac7",
-    "capturedAt": "2026-10-18T20:18:08.348Z"
+    "sha256": "acb46ea8aa5a904c890515fd0bda88f81b9bcdbed7891a7f1c36c18ecbbb9192",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/drawing-defaults.webp",
+        "sha256": "acb46ea8aa5a904c890515fd0bda88f81b9bcdbed7891a7f1c36c18ecbbb9192"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/drawing-defaults.webp",
+        "sha256": "5f9d3b7df403874af1252dfd53289725872c561edcd5fb7fe80d7e48d7882fee"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:06.864Z"
   },
   {
     "id": "technology-tables",
     "feature": "Material technology tables",
-    "sha256": "638fd87dd7b32486579a282440567d50ca2906f6f4750620fd005ada7bca7d0c",
-    "capturedAt": "2026-10-18T20:18:09.240Z"
+    "sha256": "a6275e414a30105b8f33f5779249e881de32f08c93eb94aac461344f848fa869",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/technology-tables.webp",
+        "sha256": "a6275e414a30105b8f33f5779249e881de32f08c93eb94aac461344f848fa869"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/technology-tables.webp",
+        "sha256": "137ec8bd20d8ab1570ad39d75c62247d552f3eef481172f4d1b66c524b9440d6"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:09.582Z"
   },
   {
     "id": "library",
     "feature": "Local library and templates",
-    "sha256": "d5a0ecb5948015e03370c53eb99bdeba049b03c1f9a5d38af3e7d2348e535e16",
-    "capturedAt": "2026-10-18T20:18:10.089Z"
+    "sha256": "4f78b24d81c018eeedbad4ec8093ee7a775a1c3c62c1bd5f05691c48d221c740",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/library.webp",
+        "sha256": "4f78b24d81c018eeedbad4ec8093ee7a775a1c3c62c1bd5f05691c48d221c740"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/library.webp",
+        "sha256": "741b34db356269b06613c4db8a9f73680495a91d065dc4c918f08b9c81429b45"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:12.951Z"
   },
   {
     "id": "planning",
     "feature": "Bend alternatives and planning controls",
-    "sha256": "3000de1c15d89f85676063af9b255bbad2ca9ec1109370064520a0775b714c20",
-    "capturedAt": "2026-10-18T20:18:11.390Z"
+    "sha256": "551128a893b402cac48086e3dc1e9d773ce5b8fcae395e9b519bc589529c2703",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/planning.webp",
+        "sha256": "551128a893b402cac48086e3dc1e9d773ce5b8fcae395e9b519bc589529c2703"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/planning.webp",
+        "sha256": "03a2a2dd3f9faaf29bd47777e1446cb7ca8b6b4c529e6b6867f38552dc9ae0b6"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:16.199Z"
   },
   {
     "id": "cad-import",
     "feature": "CAD import options",
-    "sha256": "71743724a72e941007c8b42212141c9112de8c7a01ae43e04d33be793132d675",
-    "capturedAt": "2026-10-18T20:18:12.346Z"
+    "sha256": "56d684dc7c3b4c528340d5c0cc045ba12bd314416c62f77539bc32c86041cb5a",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/cad-import.webp",
+        "sha256": "56d684dc7c3b4c528340d5c0cc045ba12bd314416c62f77539bc32c86041cb5a"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/cad-import.webp",
+        "sha256": "eaad53a37850ba820120345dd2707d25b1f3914ade812f43e8536dd12d68d080"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:19.419Z"
   },
   {
     "id": "arabic",
     "feature": "Arabic right-to-left interface",
-    "sha256": "c1488b1e10f16b7bd36cb3a8439a2664f4b7943da91f8bd21a73bc113c802bca",
-    "capturedAt": "2026-10-18T20:18:13.376Z"
+    "sha256": "2badb527038920861ff4ffb0c1d06d34d31874be59044de783244abfd18165fe",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/arabic.webp",
+        "sha256": "2badb527038920861ff4ffb0c1d06d34d31874be59044de783244abfd18165fe"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/arabic.webp",
+        "sha256": "22e3c26f29f663caac88cd3933404594759a07983b5aca5558e4e7e44983a2ae"
+      }
+    },
+    "capturedAt": "2026-10-18T21:39:22.634Z"
   },
   {
     "id": "projects",
     "feature": "Multiple drawings in a project",
-    "sha256": "668a5fa462edd9a4e8df1a0a0b157d4540cd423255a70703a27deb037b03deff",
-    "capturedAt": "2026-10-18T20:21:39.540Z"
+    "sha256": "7a92facbab64e569c14d31bc8c6709c8199ba3e8caed7080b0e94be9deb01393",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/projects.webp",
+        "sha256": "7a92facbab64e569c14d31bc8c6709c8199ba3e8caed7080b0e94be9deb01393"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/projects.webp",
+        "sha256": "fc36f05cd57ffa1a792102b90e02105482f6e7da6af3179b45ce650a699ef64e"
+      }
+    },
+    "capturedAt": "2026-10-18T21:40:51.270Z"
   },
   {
     "id": "batch-export",
     "feature": "Per-drawing batch export readiness",
-    "sha256": "849c1d5571f9396f8e3558cbc7965d1c222a85b427763dbb7cbd18e628ef0cce",
-    "capturedAt": "2026-10-18T20:22:10.390Z"
+    "sha256": "639222b4b59eca5b7853fe928b7f4329711ded1134e86c4f3f3ff905e3c0e938",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/batch-export.webp",
+        "sha256": "639222b4b59eca5b7853fe928b7f4329711ded1134e86c4f3f3ff905e3c0e938"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/batch-export.webp",
+        "sha256": "9220f066efe9c8b5ec2bd0ecaade882a40adf3dd0887c9789d2936015d56ce9f"
+      }
+    },
+    "capturedAt": "2026-10-18T21:41:51.871Z"
   },
   {
     "id": "encryption",
     "feature": "Password-encrypted portable project export",
-    "sha256": "e4bcc0ee423ed0a9b77918c9a30f2634e71f80e71c33f40f4241206fb44da29c",
-    "capturedAt": "2026-10-18T20:22:11.639Z"
+    "sha256": "26728c8952f82c66115183a489f6ade2344c503ff40bb9e0514a64b3d0c9020e",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/encryption.webp",
+        "sha256": "26728c8952f82c66115183a489f6ade2344c503ff40bb9e0514a64b3d0c9020e"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/encryption.webp",
+        "sha256": "658fad67e74b1daa40299cd53579156514fbd3850dfd975fa6058ab15cdbaa2e"
+      }
+    },
+    "capturedAt": "2026-10-18T21:41:55.553Z"
   },
   {
     "id": "layers",
     "feature": "Linked layer creation controls",
-    "sha256": "95dedf781b187bf6e9bac0dfe1cc19254b7c46634c40947b6721d2e1d8514cae",
-    "capturedAt": "2026-10-18T20:22:12.849Z"
+    "sha256": "0412a103f2d848d226c4eabd6e898491a393ed9525e2b8be6231a34dc6e95f08",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/layers.webp",
+        "sha256": "0412a103f2d848d226c4eabd6e898491a393ed9525e2b8be6231a34dc6e95f08"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/layers.webp",
+        "sha256": "9d941d3f10f8502c27a65d8f6917f355759c6e7d490ef989aa4791feab6db534"
+      }
+    },
+    "capturedAt": "2026-10-18T21:41:58.764Z"
   },
   {
     "id": "offset",
     "feature": "Offset preview",
-    "sha256": "c2c9a6d35c39efab340e82819a5570de34d7d94781b3c52eb85a2d054063d1dd",
-    "capturedAt": "2026-10-18T20:22:13.938Z"
-  },
-  {
-    "id": "proposal",
-    "feature": "A fully checked alternative preview",
-    "sha256": "43ae592e4fb7765128c98d607626b0496e7431ac5b48fc30cb4d96b8b21839f3",
-    "capturedAt": "2026-10-18T20:22:36.526Z"
+    "sha256": "195ce562a578b015974af4d7102172d401b218fb54a8b708c897d80240631c92",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/offset.webp",
+        "sha256": "195ce562a578b015974af4d7102172d401b218fb54a8b708c897d80240631c92"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/offset.webp",
+        "sha256": "f8e2d96a115ad266cdd6adcbfe35c47810ba515d476bc55627e2f18c0ce6ffa4"
+      }
+    },
+    "capturedAt": "2026-10-18T21:42:01.974Z"
   },
   {
     "id": "assembly",
     "feature": "Project assembly simulation with real project checks",
-    "sha256": "ecf2257c62e2ab37eb4eae1645fb3ec88ccbcefc0f8c1cf62040ffea0027534f",
-    "capturedAt": "2026-10-18T20:23:03.405Z"
+    "sha256": "3daa994eddeb3f51b6377270341cb5abb7d720e22aba8e33e20584ea8ba3c414",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/assembly.webp",
+        "sha256": "3daa994eddeb3f51b6377270341cb5abb7d720e22aba8e33e20584ea8ba3c414"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/assembly.webp",
+        "sha256": "e6cc3bdab19a4f91a49bbf881c5b23fccc56aedf4bfbe0f6fe88c5861ff61ebd"
+      }
+    },
+    "capturedAt": "2026-10-18T21:42:49.667Z"
+  },
+  {
+    "id": "proposal",
+    "feature": "A fully checked alternative preview",
+    "sha256": "e0b3b225571a33020561ad90747d347fbfe85b76955760b6895e8c951018b471",
+    "variants": {
+      "light": {
+        "path": "assets/screenshots/proposal.webp",
+        "sha256": "e0b3b225571a33020561ad90747d347fbfe85b76955760b6895e8c951018b471"
+      },
+      "dark": {
+        "path": "assets/screenshots/dark/proposal.webp",
+        "sha256": "05c3c3be7f0bc11fa53ecc4b47752dd82854f1a42545e97d548ea36b13b32996"
+      }
+    },
+    "capturedAt": "2026-10-18T21:46:37.506Z"
   }
 ]

@@ -67,7 +67,10 @@
     "pageDescription": "Bendorithm — profile drawing, bend planning, machine simulation and checked BEP programs in one desktop workspace.",
     "otherPlatforms": "Other platforms",
     "platformRoadmap": "macOS · Linux — planned, not yet available",
-    "closeLanguage": "Close language selection"
+    "closeLanguage": "Close language selection",
+    "appearance": "Appearance",
+    "lightTheme": "Light theme",
+    "darkTheme": "Dark theme"
   },
   "features": {
     "drawing": {

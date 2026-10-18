@@ -1,28 +1,79 @@
 {
-  "duration": 51.8,
-  "initialLoadingTrimmedSeconds": 52.8,
-  "captions": [
-    "en",
-    "ar",
-    "de",
-    "fr",
-    "it"
+  "theme": "light",
+  "steps": [
+    {
+      "label": "Create a new drawing",
+      "time": 0.00005810000000201398
+    },
+    {
+      "label": "Set the material, thickness, width and tools",
+      "time": 2.1236503000000013
+    },
+    {
+      "label": "Review the drawing setup",
+      "time": 4.501859600000003
+    },
+    {
+      "label": "Draw precise geometry from scratch",
+      "time": 6.574374300000003
+    },
+    {
+      "label": "Review the profile dimensions and calculated values",
+      "time": 12.939086000000003
+    },
+    {
+      "label": "Review the bend order, angle and True Length",
+      "time": 16.2650878
+    },
+    {
+      "label": "The real complete check approves the drawing",
+      "time": 21.138334999999998
+    },
+    {
+      "label": "Inspect the machine simulation",
+      "time": 23.5871564
+    },
+    {
+      "label": "Review the completed full-check result",
+      "time": 35.8571426
+    },
+    {
+      "label": "Export is enabled for the checked drawing",
+      "time": 36.937658299999995
+    },
+    {
+      "label": "BEP program exported",
+      "time": 40.4027856
+    },
+    {
+      "label": "Preview the A4 setup sheet for printing or PDF",
+      "time": 42.544189599999996
+    }
   ],
-  "audio": false,
-  "recordedFrom": "Actual source application, no drawing imported or injected; real checks and downloaded BEP.",
-  "workflowSpeed": "original",
+  "duration": 47.631737300000005,
+  "initialLoadingTrimmedSeconds": 27.68826269999999,
   "formats": [
     {
       "file": "walkthrough.webm",
       "codec": "WebM / VP9",
-      "bytes": 1692456,
-      "sha256": "cc70ec62c0c30e56e911a61c5a36de9533b97d455d7d93374b168c25256e7ea2"
+      "bytes": 1526074,
+      "sha256": "dc6e58d5c6460c9a3b903a314372b6002a7812d83568543b7f07a1c57f3a4dbe"
     },
     {
       "file": "walkthrough.mp4",
       "codec": "MP4 / H.264",
-      "bytes": 2527833,
-      "sha256": "ffd8e2c7921da2ab6c4c153ad079bdb2f4af615a01e2cd7f1d21debe62bf0f71"
+      "bytes": 2343140,
+      "sha256": "1c5519cdad009203deebebdc90e2edc09a2547c6ecc69f4df00a5a37b5bc88d9"
     }
-  ]
+  ],
+  "captions": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "ar"
+  ],
+  "audio": false,
+  "recordedFrom": "Actual source application, no drawing imported or injected; real checks and downloaded BEP.",
+  "workflowSpeed": "original"
 }

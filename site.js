@@ -1,3 +1,4 @@
+import {createThemeControl,mediaPath} from './theme.js';
 import {featureIds, screenshots} from './features.js';
 import {languages, isLanguage} from './languages.js';
 import {createLanguagePicker} from './language-picker.js';
@@ -12,7 +13,14 @@ let locale = 'en';
 const requested = new URL(location.href).searchParams.get('lang');
 if (isLanguage(requested)) locale = requested;
 let category = 'all', heroView = 'machine-full', modalView = null;
-let available = new Set(), config = {};
+let available = new Set(), config = {}, themeControl;
+const currentTheme=()=>document.documentElement.dataset.theme==='dark'?'dark':'light';
+const shotPath=(file)=>mediaPath(currentTheme(),'screenshots',file);
+function updateMedia(){
+ document.querySelector('#hero-shot').src=shotPath(heroView+'.webp');
+ for(const img of document.querySelectorAll('.gallery-item img')){const id=img.dataset.shot;img.src=shotPath('thumbs/'+id+'.webp');img.srcset=shotPath('thumbs/'+id+'.webp')+' 720w, '+shotPath(id+'.webp')+' 1600w';}
+ if(modalView)document.querySelector('#large-image').src=shotPath(modalView+'.webp');
+}
 
 const node = (tag, cls, text) => {
   const element = document.createElement(tag);
@@ -63,8 +71,9 @@ function renderGallery() {
     const title = content().screenshots[id];
     const figure = node('figure', 'gallery-item'), button = node('button'), img = node('img');
     button.type = 'button';
-    img.src = `assets/screenshots/thumbs/${id}.webp`;
-    img.srcset = `assets/screenshots/thumbs/${id}.webp 720w, assets/screenshots/${id}.webp 1600w`;
+    img.dataset.shot=id;
+    img.src = shotPath(`thumbs/${id}.webp`);
+    img.srcset = `${shotPath(`thumbs/${id}.webp`)} 720w, ${shotPath(`${id}.webp`)} 1600w`;
     img.sizes = '(max-width:700px) calc(100vw - 32px), 580px';
     img.alt = title;
     img.width = 1600;
@@ -74,7 +83,7 @@ function renderGallery() {
     button.append(img);
     button.onclick = () => {
       modalView = id;
-      document.querySelector('#large-image').src = `assets/screenshots/${id}.webp`;
+      document.querySelector('#large-image').src = shotPath(`${id}.webp`);
       updateImageDescriptions();
       document.querySelector('#image-dialog').showModal();
     };
@@ -124,6 +133,7 @@ function applyLanguage() {
     element.setAttribute('aria-label', copy[element.dataset.i18nAria]);
   });
   languagePicker.update(locale, copy);
+  themeControl?.updateLabels();
   document.title = copy.pageTitle;
   document.querySelector('meta[name="description"]').content = copy.pageDescription;
   for (const track of document.querySelector('#walkthrough-video').textTracks) {
@@ -146,7 +156,7 @@ const languagePicker = createLanguagePicker(document.querySelector('#language-pi
 document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {
   document.querySelectorAll('[data-view]').forEach(other => other.setAttribute('aria-pressed', String(other === button)));
   heroView = button.dataset.view;
-  document.querySelector('#hero-shot').src = `assets/screenshots/${heroView}.webp`;
+  document.querySelector('#hero-shot').src = shotPath(`${heroView}.webp`);
   updateImageDescriptions();
 });
 document.querySelector('#close-image').onclick = () => document.querySelector('#image-dialog').close();
@@ -157,4 +167,5 @@ await Promise.all([
   }).catch(() => {}),
   fetch('config.json').then(response => response.ok ? response.json() : {}).then(data => { config = data; }).catch(() => {}),
 ]);
+themeControl=await createThemeControl({getCopy:()=>content().copy,onChange:updateMedia});
 applyLanguage();

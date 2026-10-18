@@ -67,7 +67,10 @@
     "pageDescription": "Bendorithm — Profilzeichnung, Biegeplanung, Maschinensimulation und geprüfte BEP-Programme in einem Desktop-Arbeitsbereich.",
     "otherPlatforms": "Weitere Plattformen",
     "platformRoadmap": "macOS · Linux — geplant, noch nicht verfügbar",
-    "closeLanguage": "Sprachauswahl schließen"
+    "closeLanguage": "Sprachauswahl schließen",
+    "appearance": "Darstellung",
+    "lightTheme": "Helles Design",
+    "darkTheme": "Dunkles Design"
   },
   "features": {
     "drawing": {

@@ -1,0 +1,79 @@
+{
+  "theme": "dark",
+  "steps": [
+    {
+      "label": "Create a new drawing",
+      "time": 0.001450799999991432
+    },
+    {
+      "label": "Set the material, thickness, width and tools",
+      "time": 2.22669739999999
+    },
+    {
+      "label": "Review the drawing setup",
+      "time": 4.9431527999999965
+    },
+    {
+      "label": "Draw precise geometry from scratch",
+      "time": 7.091195499999987
+    },
+    {
+      "label": "Review the profile dimensions and calculated values",
+      "time": 13.323949099999998
+    },
+    {
+      "label": "Review the bend order, angle and True Length",
+      "time": 17.0797276
+    },
+    {
+      "label": "The real complete check approves the drawing",
+      "time": 34.49401209999999
+    },
+    {
+      "label": "Inspect the machine simulation",
+      "time": 37.4620683
+    },
+    {
+      "label": "Review the completed full-check result",
+      "time": 50.9031038
+    },
+    {
+      "label": "Export is enabled for the checked drawing",
+      "time": 52.0347588
+    },
+    {
+      "label": "BEP program exported",
+      "time": 55.9453075
+    },
+    {
+      "label": "Preview the A4 setup sheet for printing or PDF",
+      "time": 58.258801600000005
+    }
+  ],
+  "duration": 63.3724431,
+  "initialLoadingTrimmedSeconds": 67.7475569,
+  "formats": [
+    {
+      "file": "walkthrough.webm",
+      "codec": "WebM / VP9",
+      "bytes": 1937155,
+      "sha256": "13134882dee93a1136e2677d7b22478695561c3a6e14b00c85873c3606801201"
+    },
+    {
+      "file": "walkthrough.mp4",
+      "codec": "MP4 / H.264",
+      "bytes": 3133554,
+      "sha256": "dfc32d2eb1d02ff7e6e61c160d90c9ec8f5d9412aac2efd4494d415ff6b1fa41"
+    }
+  ],
+  "captions": [
+    "en",
+    "de",
+    "fr",
+    "it",
+    "ar"
+  ],
+  "audio": false,
+  "recordedFrom": "Actual source application, no drawing imported or injected; real checks and downloaded BEP.",
+  "workflowSpeed": "original"
+}

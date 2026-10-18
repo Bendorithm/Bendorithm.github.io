@@ -67,7 +67,10 @@
     "pageDescription": "Bendorithm — dessin de profils, planification du pliage, simulation machine et programmes BEP vérifiés dans un même espace de bureau.",
     "otherPlatforms": "Autres plateformes",
     "platformRoadmap": "macOS · Linux — prévus, pas encore disponibles",
-    "closeLanguage": "Fermer le choix de langue"
+    "closeLanguage": "Fermer le choix de langue",
+    "appearance": "Apparence",
+    "lightTheme": "Thème clair",
+    "darkTheme": "Thème sombre"
   },
   "features": {
     "drawing": {

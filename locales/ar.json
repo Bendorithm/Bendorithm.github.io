@@ -67,7 +67,10 @@
     "pageDescription": "Bendorithm — رسم القطاعات وتخطيط الثني ومحاكاة الماكينة وبرامج BEP مكتملة الفحص في مساحة عمل واحدة لسطح المكتب.",
     "otherPlatforms": "أنظمة أخرى",
     "platformRoadmap": "macOS · Linux — ضمن الخطة، غير متاحين بعد",
-    "closeLanguage": "إغلاق اختيار اللغة"
+    "closeLanguage": "إغلاق اختيار اللغة",
+    "appearance": "المظهر",
+    "lightTheme": "الوضع الفاتح",
+    "darkTheme": "الوضع الداكن"
   },
   "features": {
     "drawing": {
