@@ -66,7 +66,8 @@
     "pageTitle": "Bendorithm — من القطاع لبرنامج الماكينة",
     "pageDescription": "Bendorithm — رسم القطاعات وتخطيط الثني ومحاكاة الماكينة وبرامج BEP مكتملة الفحص في مساحة عمل واحدة لسطح المكتب.",
     "otherPlatforms": "أنظمة أخرى",
-    "platformRoadmap": "macOS · Linux — ضمن الخطة، غير متاحين بعد"
+    "platformRoadmap": "macOS · Linux — ضمن الخطة، غير متاحين بعد",
+    "closeLanguage": "إغلاق اختيار اللغة"
   },
   "features": {
     "drawing": {

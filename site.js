@@ -1,17 +1,14 @@
 import {featureIds, screenshots} from './features.js';
 import {languages, isLanguage} from './languages.js';
+import {createLanguagePicker} from './language-picker.js';
 
 const translations = Object.fromEntries(await Promise.all(languages.map(async ({id}) => {
   const response = await fetch(`locales/${id}.json`);
   if (!response.ok) throw Error(`Could not load website language: ${id}`);
   return [id, await response.json()];
 })));
-const storageKey = 'bendorithm.website.language';
 let locale = 'en';
-try {
-  const saved = localStorage.getItem(storageKey);
-  if (isLanguage(saved)) locale = saved;
-} catch { /* Browsing without persistent storage still supports switching languages. */ }
+// The main URL always starts in English. Explicit language links stay shareable.
 const requested = new URL(location.href).searchParams.get('lang');
 if (isLanguage(requested)) locale = requested;
 let category = 'all', heroView = 'machine-full', modalView = null;
@@ -126,7 +123,7 @@ function applyLanguage() {
   document.querySelectorAll('[data-i18n-aria]').forEach(element => {
     element.setAttribute('aria-label', copy[element.dataset.i18nAria]);
   });
-  document.querySelector('#language').value = locale;
+  languagePicker.update(locale, copy);
   document.title = copy.pageTitle;
   document.querySelector('meta[name="description"]').content = copy.pageDescription;
   for (const track of document.querySelector('#walkthrough-video').textTracks) {
@@ -139,22 +136,13 @@ function applyLanguage() {
   renderDownload();
 }
 
-const languageSelect = document.querySelector('#language');
-for (const {id, name} of languages) {
-  const option = node('option', '', name);
-  option.value = id;
-  option.lang = id;
-  languageSelect.append(option);
-}
-languageSelect.onchange = () => {
-  if (!isLanguage(languageSelect.value)) return;
-  locale = languageSelect.value;
-  try { localStorage.setItem(storageKey, locale); } catch { /* Optional persistence. */ }
+const languagePicker = createLanguagePicker(document.querySelector('#language-picker'), next => {
+  locale = next;
   const url = new URL(location.href);
   url.searchParams.set('lang', locale);
   history.replaceState(null, '', url);
   applyLanguage();
-};
+});
 document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {
   document.querySelectorAll('[data-view]').forEach(other => other.setAttribute('aria-pressed', String(other === button)));
   heroView = button.dataset.view;

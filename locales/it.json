@@ -66,7 +66,8 @@
     "pageTitle": "Bendorithm — Dal profilo al programma",
     "pageDescription": "Bendorithm — disegno di profili, pianificazione delle pieghe, simulazione macchina e programmi BEP verificati in un’unica area desktop.",
     "otherPlatforms": "Altre piattaforme",
-    "platformRoadmap": "macOS · Linux — previsti, non ancora disponibili"
+    "platformRoadmap": "macOS · Linux — previsti, non ancora disponibili",
+    "closeLanguage": "Chiudi la selezione della lingua"
   },
   "features": {
     "drawing": {
