@@ -1,12 +1,12 @@
 {
   "version": "0.1.1",
   "notes": "Ben2 feedback: clearer workspace, export and license panels; project identity and lifecycle fixes; verified version-bound update downloads.",
-  "pub_date": "2026-10-25T14:22:14.014Z",
+  "pub_date": "2026-10-25T16:42:11.422Z",
   "platforms": {
     "windows-x86_64": {
       "url": "https://github.com/Bendorithm/Bendorithm.github.io/releases/download/v0.1.1/Bendorithm-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSkNzTXNKd3ZWajM5T0ZpVVNNQUIraEgxQyszZ3BvMHhaR2Irc25vVVJDWlRNQ0hleVZGOFlNK3JnZ1Y0KzhweWY0aFdiQ0NCMkJuRVlETi93a0MrSUhTNHFVWlNHY0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTM4MTMzCWZpbGU6QmVuZG9yaXRobS1TZXR1cC5leGUJdmVyc2lvbjowLjEuMQpBM3ZsWU5aRVRSZ1lhd2s0RWFPcFdqMVF0QSt4UU5Lb2UvN0ZZMzJTVDViRHlDY2wzK3ZFR2JwZEpZb2RpTFZ0K2tyUzZmdlVXNHROSllsOTZMMnNDdz09Cg==",
-      "sha256": "fdb13b0d759796bd9a488572993a1647ce9adf9d3da423a009245e1cfe9e8174",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSkNzTXNKd3ZWajNnNHBHK1ZDZ09Rdi95YzhtVGw0QUNiZTJaeVQxNWpwbXBsQjZBZkszU0JySXpDeXBaQ3Voa0xGSnNLc2hIRlFhQzZMQ2NLaWxCTjBCOTNScm5zcWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTQ2NTMwCWZpbGU6QmVuZG9yaXRobS1TZXR1cC5leGUJdmVyc2lvbjowLjEuMQpwTzhKVzJ5NkRySGg3OE5vVGFkR2E5cnUvUk9vUlY5Vy9tQVhHeWViQXIyTU1SbW1vS2JObjhmV0JFeU9jRDFkcFJ0UkZ3VFZ4MUxhRHlSaUxNQW5EUT09Cg==",
+      "sha256": "293cbe7698ca3e1785c76e1693cdaffa1b348867f6f0e0bef84ba0194a8f454b",
       "bytes": 35288064
     }
   }
