@@ -1,5 +1,5 @@
 {
-  "releaseRepository": null,
-  "windowsAssetName": null,
-  "version": null
+  "releaseRepository": "Bendorithm/Bendorithm.github.io",
+  "windowsAssetName": "Bendorithm-Setup.exe",
+  "version": "0.1.1"
 }
