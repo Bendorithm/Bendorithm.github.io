@@ -46,7 +46,7 @@ jobs:
             echo 'The exact verified release is already current; no changes.'
             exit 0
           fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Publish verified stable update metadata'
+          git -c user.name='Bendorithm' -c user.email='344117222+Bendorithm@users.noreply.github.com' commit -m 'Publish verified Bendorithm update metadata'
           if ! git push origin HEAD:main; then
             echo '::error::Verified feed was not published. Push to main was rejected (branch protection, concurrent update or token permissions). No bypass was attempted.'
             exit 1
