@@ -14,6 +14,6 @@ Light and Dark recordings have matching chapter metadata, WebM/MP4 formats and c
 
 ## Windows release and updates
 
-Only a reviewed customer Installer, its updater signature and version feed are published. Automatic update download starts with the desktop workspace; installing requires explicit approval for the displayed version. Save work and close Bendorithm before continuing in setup. Projects and licensing records are retained. Public config/feed are enabled only after the exact release assets are reachable. Windows x64 requires WebView2; macOS/Linux are not released. Updater signing is separate from Authenticode publisher reputation.
+Only a reviewed customer Installer, its updater signature and version feed are published. Automatic update download starts with the desktop workspace; installing requires explicit approval for the displayed version. Save work and close Bendorithm before continuing in setup. Projects and licensing records are retained. Public config/feed are enabled only after the exact release assets are reachable. Windows 10/11 x64 requires WebView2; macOS/Linux are not released. Updater signing is separate from Authenticode publisher reputation.
 
 This public site contains no application source, private licensing material or signing keys. License enquiries: Bendorithm@gmail.com
