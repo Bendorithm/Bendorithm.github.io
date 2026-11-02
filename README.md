@@ -2,13 +2,15 @@
 
 Official website: https://bendorithm.github.io/
 
-Current desktop features include CAD drawing and Linear/Aligned/Angle/Radius measurements, Object Snap modes, current-view editing and model clipboard, starter profiles, bend calculation and checked planning, multidrawing projects with a48-item catalog page, unified Settings, reusable drawing Library, BEP and A4/PDF output. All eight feature groups are described in English, Arabic, German, French and Italian.
+The first public release is Bendorithm 1.0.0 Beta; its internal and update-feed version is 1.0.0.
+
+Current desktop features include CAD drawing and Linear/Aligned/Angle/Radius measurements, Object Snap modes, current-view editing and model clipboard, starter profiles, bend calculation and checked planning, multidrawing projects with a 48-item catalog page, unified Settings, reusable drawing Library, BEP and A4/PDF output. All eight feature groups are described in English, Arabic, German, French and Italian.
 
 ## Current media
 
-Screenshots and the two theme walkthroughs were recorded from current0.2.0 source in an isolated browser on2November2026, with normal theme/appearance initialization and actual UI actions. A repository BEP fixture was imported through the UI; the actual complete check returned No overlap detected. This is a demonstration of that sample, not OS-picker, installed-upgrade or physical-machine acceptance. Video chapters cover the profile/program, snap choices, check, machine views, seven Settings sections and Library; this recording does not demonstrate drawing from scratch or saving/exporting a PDF.
+Screenshots and the two theme walkthroughs were recorded from the development source for the 1.0.0 Beta public release in an isolated browser on 2 November 2026, with normal theme/appearance initialization and actual UI actions. A repository BEP fixture was imported through the UI; the actual complete check returned No overlap detected. This is a demonstration of that sample, not OS-picker, installed-upgrade or physical-machine acceptance. Video chapters cover the profile/program, snap choices, check, machine views, seven Settings sections and Library; this recording does not demonstrate drawing from scratch or saving/exporting a PDF.
 
-Light and Dark recordings have matching chapter metadata, WebM/MP4 formats and captions in all five languages. Screenshots use WebP with current-media manifest hashes and720px thumbnails. Historical unused assets may remain in the repository but are excluded from the current gallery manifest. The bundled Alan Sans license is retained.
+Light and Dark recordings have matching chapter metadata, WebM/MP4 formats and captions in all five languages. Screenshots use WebP with current-media manifest hashes and 720px thumbnails. Historical unused assets may remain in the repository but are excluded from the current gallery manifest. The bundled Alan Sans license is retained.
 
 ## Windows release and updates
 

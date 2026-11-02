@@ -7,87 +7,87 @@
     },
     {
       "label": "Projects",
-      "time": 3.057
+      "time": 3.117
     },
     {
       "label": "Profile and overall dimensions",
-      "time": 6.278
+      "time": 6.765
     },
     {
       "label": "Object snap types",
-      "time": 9.31
+      "time": 9.809
     },
     {
       "label": "Drawing segments",
-      "time": 12.404
+      "time": 12.962
     },
     {
       "label": "Program",
-      "time": 15.485
+      "time": 16.09
     },
     {
       "label": "Actual check result",
-      "time": 19.091
+      "time": 20.195
     },
     {
       "label": "Machine: Shaded",
-      "time": 23.219
+      "time": 25.144
     },
     {
       "label": "Machine: Realistic",
-      "time": 27.292
+      "time": 29.334
     },
     {
       "label": "Machine: Wireframe",
-      "time": 30.391
+      "time": 32.417
     },
     {
       "label": "Settings: Machine profiles",
-      "time": 33.526
+      "time": 35.574
     },
     {
       "label": "Settings: Machine & tools",
-      "time": 36.589
+      "time": 38.657
     },
     {
       "label": "Settings: Travel calibration",
-      "time": 39.652
+      "time": 41.735
     },
     {
       "label": "Settings: Component outlines",
-      "time": 42.715
+      "time": 44.795
     },
     {
       "label": "Settings: Technology tables",
-      "time": 45.813
+      "time": 47.905
     },
     {
       "label": "Settings: Drawing defaults",
-      "time": 48.892
+      "time": 50.986
     },
     {
       "label": "Settings: Project storage",
-      "time": 51.959
+      "time": 54.06
     },
     {
       "label": "Library",
-      "time": 55.133
+      "time": 57.241
     }
   ],
-  "duration": 60.56,
-  "initialLoadingTrimmedSeconds": 14.98,
+  "duration": 62.32,
+  "initialLoadingTrimmedSeconds": 15.762,
   "formats": [
     {
       "file": "walkthrough.webm",
       "codec": "WebM / VP9",
-      "bytes": 2356427,
-      "sha256": "38b92e7c5d5ffd6f16048db5ba37aa31b30c8acc299f084ca09c6bad3abc51dd"
+      "bytes": 2542161,
+      "sha256": "12060d058635ec28f2f7dac65569d4988982593345713e79cc572b7cf8e8e4a6"
     },
     {
       "file": "walkthrough.mp4",
       "codec": "MP4 / H.264",
-      "bytes": 1520293,
-      "sha256": "d8690e30cbe42dfa2d2f4c37a1bb5042c4edf27e50ff4c6c84c9e5497d4e7e11"
+      "bytes": 1521957,
+      "sha256": "4f97c82d98cb91db6fb49b3c81e6084cee9dab0c915cb331ce4995568b03246e"
     }
   ],
   "captions": [
@@ -98,6 +98,6 @@
     "ar"
   ],
   "audio": false,
-  "recordedFrom": "Initialized current source application in isolated browser, repository fixture imported via UI; real sampled check.",
+  "recordedFrom": "Initialized Beta source application in isolated browser; repository fixture imported via UI, actual sampled check.",
   "workflowSpeed": "original"
 }

@@ -112,7 +112,7 @@ function renderDownload() {
   pending.hidden = !link.hidden;
   if (!link.hidden) {
     link.href = 'https://github.com/' + config.releaseRepository + '/releases/latest/download/' + encodeURIComponent(config.windowsAssetName);
-    document.querySelector('#release-status').textContent = `${content().copy.version} ${config.version} · GitHub Releases`;
+    document.querySelector('#release-status').replaceChildren(document.createTextNode(`${content().copy.version} ${config.version} `), node('span', 'beta-badge', 'Beta'), document.createTextNode(' · GitHub Releases'));
   }
 }
 
