@@ -1,0 +1,61 @@
+name: Publish verified update feed
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Existing published stable release tag (vX.Y.Z)
+        required: true
+        type: string
+
+permissions: {}
+
+concurrency:
+  group: verified-stable-update-feed
+  cancel-in-progress: false
+
+jobs:
+  publish-feed:
+    if: github.repository == 'Bendorithm/Bendorithm.github.io'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - name: Check out reviewed main branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Verify release and prepare feed
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name || inputs.release_tag }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/update-feed.mjs
+      - name: Commit only verified public release metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- updates/stable.json config.json
+          if git diff --cached --quiet; then
+            echo 'The exact verified release is already current; no changes.'
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Publish verified stable update metadata'
+          if ! git push origin HEAD:main; then
+            echo '::error::Verified feed was not published. Push to main was rejected (branch protection, concurrent update or token permissions). No bypass was attempted.'
+            exit 1
+          fi
+      - name: Request build of the existing GitHub Pages site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api --method POST repos/Bendorithm/Bendorithm.github.io/pages/builds
+          echo 'Pages build requested. Queued is not public feed verification; read back the public endpoint after deployment.'

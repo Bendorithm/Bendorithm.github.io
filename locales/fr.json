@@ -30,7 +30,7 @@
     "galleryIntro": "De vraies captures de l’application en cours d’utilisation. Choisissez une vue pour en examiner les détails.",
     "yourWorkspace": "VOTRE PROCHAIN ESPACE DE TRAVAIL",
     "downloadTitle": "Le prochain pli,<br>en toute clarté.",
-    "downloadIntro": "Bendorithm pour votre ordinateur. Retrouvez les versions publiées ci-dessous et conservez les fiches de réglage avec votre travail.",
+    "downloadIntro": "Préparez votre prochain travail de pliage sous Windows. La disponibilité de la version figure ci-dessous ; la prise en charge de macOS et Linux est prévue.",
     "downloadWindows": "Télécharger pour Windows",
     "downloadSoon": "Téléchargement Windows bientôt disponible",
     "releasePending": "Le téléchargement public apparaîtra ici après la publication de la première version sur GitHub.",
@@ -52,9 +52,9 @@
     "workspace": "Espace de travail",
     "close": "Fermer la capture",
     "view": "Voir la capture",
-    "videoEyebrow": "DÈS LA PREMIÈRE LIGNE",
-    "videoTitle": "Une pièce. Tout le processus.",
-    "videoIntro": "Suivez un dessin réel, des réglages et des cotes jusqu’au programme machine vérifié et à la fiche de réglage A4.",
+    "videoEyebrow": "ESPACE DE TRAVAIL ACTUEL",
+    "videoTitle": "Découvrez l’espace de travail actuel.",
+    "videoIntro": "Suivez un profil existant pendant la revue du programme, un contrôle de collision terminé, puis les vues de la machine, les paramètres et la bibliothèque locale.",
     "videoFallback": "Votre navigateur ne peut pas lire cette vidéo. Téléchargez-la pour la regarder.",
     "trueLength": "LONGUEUR RÉELLE",
     "language": "Langue du site",
@@ -78,12 +78,15 @@
       "intro": "Construisez la pièce dans un espace de dessin coté.",
       "items": [
         "Dessin libre et saisie précise de la longueur et de l’angle des lignes",
-        "Grille, mode orthogonal, suivi polaire et accrochage aux objets",
+        "Grille, mode orthogonal et suivi polaire ; accrochages au point final, au milieu, à l’intersection et au point le plus proche",
         "Sélection, déplacement, copie et rotation des dessins ; annulation et rétablissement",
-        "Cotes alignées, horizontales, verticales et automatiques",
+        "Mesures linéaires horizontales/verticales, alignées, angulaires et de rayon, en complément des cotes automatiques",
         "Dessins décalés, symétrie de la géométrie et calques liés",
-        "Vues de face, de dessus, de côté et en 3D ; déplacement et zoom",
-        "Import CAD avec vérification des unités, du contour ou de l’axe médian et sélection des pièces"
+        "Sélectionner et modifier en vue de face, de dessus, de côté ou 3D ; les commandes numériques gèrent les coordonnées masquées dans les vues de chant",
+        "Import CAD avec vérification des unités, du contour ou de l’axe médian et sélection des pièces",
+        "Afficher les points de référence des mesures manuelles ; textes, flèches et lignes suivent le zoom du dessin",
+        "Commencer à vide ou choisir un profil modifiable L, Z, U, chapeau ou décalé à 45° ; calcul et contrôle dépendent de la configuration choisie",
+        "Presse-papiers interne des dessins avec Ctrl+C / Ctrl+X / Ctrl+V ; placement, validation et annulation/rétablissement restent intégrés"
       ]
     },
     "calculation": {
@@ -133,13 +136,15 @@
         "Lecture du projet conservant les pièces terminées dans l’assemblage",
         "Modification du dessin maître des calques liés, régénération et détachement",
         "Fichiers de projet portables et export de projet chiffré par mot de passe",
-        "Contrôles à l’enregistrement, copies de récupération et protection du travail non enregistré"
+        "Contrôles à l’enregistrement, copies de récupération et protection du travail non enregistré",
+        "Navigation en grille ou en liste, 48 projets par page, filtre par machine et sélection de page ; les aperçus des projets enregistrés sont chargés uniquement pour la page visible"
       ]
     },
     "tools": {
       "title": "Travailler avec les réglages de votre machine",
       "intro": "Utilisez les définitions et les mesures que vous avez vérifiées.",
       "items": [
+        "Un espace Paramètres pour profils de machines, outils, calibration des déplacements, contours des composants, tables technologiques, valeurs par défaut et stockage des projets",
         "Profils machine, affectation par projet et réglages par défaut des nouveaux projets",
         "Dimensions d’outils, définitions locales et contours de composants mesurés",
         "Étalonnage des positions de commande et des courses avec limites enregistrées",
@@ -153,10 +158,10 @@
       "intro": "Préparez le programme et une fiche de réglage lisible.",
       "items": [
         "Export BEP conditionné par la vérification complète actuelle prise en charge",
-        "Aperçu, impression et sortie PDF de la fiche de réglage A4",
+        "Fiches A4 avec machine, épaisseur et largeur de bande distinctes, outillage et matériau entier avant/après pliage",
         "Matériau, outils, cotes, étapes de pliage et longueur réelle sur la fiche",
         "Longueur affichée facultative à partir de l’étalonnage machine confirmé",
-        "Export par lot avec examen de l’état de préparation de chaque dessin",
+        "Export par lot en fichiers BEP, en un PDF regroupé ou les deux, avec noms explicites et vérification de chaque dessin",
         "Fichiers distincts pour les programmes machine et les projets portables"
       ]
     },
@@ -164,7 +169,7 @@
       "title": "Un espace de travail familier",
       "intro": "Conservez les copies utiles et personnalisez l’interface.",
       "items": [
-        "Bibliothèque locale de programmes : dossiers, recherche, aperçus et modèles",
+        "Bibliothèque locale de copies réutilisables de profils et de programmes de pliage, avec dossiers, recherche, aperçus et modèles ; les projets complets sont sauvegardés séparément",
         "Duplication, renommage, déplacement, suppression et annulation des actions de la bibliothèque",
         "Interfaces en anglais, arabe, allemand, français et italien",
         "Mise en page arabe de droite à gauche, thèmes clair et sombre et préférences enregistrées",
@@ -222,7 +227,7 @@
     ],
     [
       "Les mises à jour viendront-elles de GitHub ?",
-      "GitHub Releases est le canal de téléchargement prévu. La vérification des mises à jour n’est pas encore reliée dans la version actuelle ; le menu d’aide l’indique explicitement."
+      "Bendorithm peut rechercher au démarrage une mise à jour Windows publiée et la télécharger automatiquement si une mise à jour signée est disponible. L’installation exige toujours votre accord : enregistrez votre travail et fermez Bendorithm avant de poursuivre dans le programme d’installation. Les téléchargements publics dépendent d’une version publiée et approuvée."
     ],
     [
       "La simulation remplace-t-elle la validation sur machine ?",

@@ -30,7 +30,7 @@
     "galleryIntro": "Echte Bildschirmaufnahmen aus der Anwendung. Wählen Sie eine Ansicht, um die Details zu sehen.",
     "yourWorkspace": "IHR NÄCHSTER ARBEITSBEREICH",
     "downloadTitle": "Die nächste Biegung<br>klar vor Augen.",
-    "downloadIntro": "Bendorithm für Ihren Desktop. Hier finden Sie veröffentlichte Versionen; bewahren Sie die Einrichtblätter bei Ihrer Arbeit auf.",
+    "downloadIntro": "Bereiten Sie Ihren nächsten Biegeauftrag unter Windows vor. Die Verfügbarkeit einer Version steht unten; Unterstützung für macOS und Linux ist geplant.",
     "downloadWindows": "Für Windows herunterladen",
     "downloadSoon": "Windows-Download in Kürze",
     "releasePending": "Der öffentliche Download erscheint hier, sobald die erste Version auf GitHub veröffentlicht ist.",
@@ -52,9 +52,9 @@
     "workspace": "Arbeitsbereich",
     "close": "Bildschirmaufnahme schließen",
     "view": "Bildschirmaufnahme ansehen",
-    "videoEyebrow": "VON DER ERSTEN LINIE AN",
-    "videoTitle": "Ein Teil. Der gesamte Ablauf.",
-    "videoIntro": "Verfolgen Sie eine echte Zeichnung von Einrichtung und Bemaßung bis zum geprüften Maschinenprogramm und A4-Einrichtblatt.",
+    "videoEyebrow": "AKTUELLER ARBEITSBEREICH",
+    "videoTitle": "Ein Rundgang durch den aktuellen Arbeitsbereich.",
+    "videoIntro": "Begleiten Sie ein vorhandenes Profil durch die Programmprüfung, eine abgeschlossene Kollisionsprüfung, Maschinenansichten, Einstellungen und die lokale Bibliothek.",
     "videoFallback": "Ihr Browser kann dieses Video nicht abspielen. Laden Sie es zum Ansehen herunter.",
     "trueLength": "WAHRE LÄNGE",
     "language": "Sprache der Website",
@@ -78,12 +78,15 @@
       "intro": "Erstellen Sie das Teil in einem bemaßten Arbeitsbereich.",
       "items": [
         "Freies Zeichnen und präzise Eingabe von Linienlänge und Winkel",
-        "Raster, Orthomodus, Polarverfolgung und Objektfang",
+        "Raster, Orthomodus und Polarverfolgung; wählbarer Objektfang für Endpunkt, Mittelpunkt, Schnittpunkt und nächsten Punkt",
         "Zeichnungen auswählen, verschieben, kopieren und drehen; Rückgängig und Wiederholen",
-        "Ausgerichtete, horizontale, vertikale und automatische Bemaßung",
+        "Horizontale/vertikale lineare, ausgerichtete, Winkel- und Radiusbemaßung neben automatischen Maßen",
         "Versetzte Zeichnungen, gespiegelte Geometrie und verknüpfte Ebenen",
-        "Vorder-, Drauf-, Seiten- und 3D-Ansicht; Verschieben und Zoomen",
-        "CAD-Import mit Prüfung von Einheiten, Kontur oder Mittellinie und Teileauswahl"
+        "In Vorder-, Drauf-, Seiten- oder 3D-Ansicht auswählen und bearbeiten; numerische Eingaben steuern in Kantenansichten verborgene Koordinaten",
+        "CAD-Import mit Prüfung von Einheiten, Kontur oder Mittellinie und Teileauswahl",
+        "Bezugspunkte manueller Maße anzeigen; Maßtexte, Pfeile und Linien skalieren mit dem Zeichnungszoom",
+        "Leer beginnen oder ein bearbeitbares L-, Z-, U-, Hut- oder 45°-Versatzprofil wählen; Berechnung und Prüfung richten sich nach den gewählten Einstellungen",
+        "Interne Zeichnungszwischenablage mit Strg+C / Strg+X / Strg+V; Platzierung, Validierung und Rückgängig/Wiederholen bleiben Teil des Ablaufs"
       ]
     },
     "calculation": {
@@ -133,13 +136,15 @@
         "Projektwiedergabe mit fertigen Teilen im Zusammenbau",
         "Hauptzeichnung verknüpfter Ebenen bearbeiten, Ebenen neu erzeugen oder lösen",
         "Übertragbare Projektdateien und passwortverschlüsselter Projektexport",
-        "Speicherprüfungen, Wiederherstellungskopien und Schutz ungesicherter Arbeit"
+        "Speicherprüfungen, Wiederherstellungskopien und Schutz ungesicherter Arbeit",
+        "Raster- oder Listenansicht mit 48 Projekten je Seite, Maschinenfilter und Seitenauswahl; gespeicherte Vorschauen laden für die sichtbare Seite"
       ]
     },
     "tools": {
       "title": "Mit Ihren Maschinendaten arbeiten",
       "intro": "Verwenden Sie die geprüften Definitionen und Messwerte.",
       "items": [
+        "Ein Einstellungsbereich für Maschinenprofile, Werkzeuge, Verfahrkalibrierung, Komponentenkonturen, Technologietabellen, Zeichnungsvorgaben und Projektspeicher",
         "Maschinenprofile, Maschinenzuordnung je Projekt und Vorgaben für neue Projekte",
         "Werkzeugmaße, lokale Definitionen und vermessene Komponentenkonturen",
         "Kalibrierung von Steuerungspositionen und Verfahrwegen mit erfassten Grenzen",
@@ -153,10 +158,10 @@
       "intro": "Bereiten Sie das Programm und ein lesbares Einrichtblatt vor.",
       "items": [
         "BEP-Export erst nach der aktuellen unterstützten vollständigen Prüfung",
-        "A4-Einrichtblatt mit Vorschau, Druck und PDF-Ausgabe",
+        "A4-Einrichtblätter mit Maschine, getrennten Angaben für Dicke und Bandbreite, Werkzeugen sowie vollständigem Material vor und nach dem Biegen",
         "Material, Werkzeuge, Maße, Biegeschritte und wahre Länge auf dem Blatt",
         "Optionale Anzeigelänge anhand der bestätigten Maschinenkalibrierung",
-        "Stapelexport mit Prüfung der Bereitschaft jeder Zeichnung",
+        "Stapelexport als BEP-Dateien, eine gemeinsame PDF-Datei oder beides, mit eindeutigen Ausgabenamen und Prüfung jeder Zeichnung",
         "Getrennte Dateien für Maschinenprogramme und übertragbare Projekte"
       ]
     },
@@ -164,7 +169,7 @@
       "title": "Ein vertrauter Arbeitsbereich",
       "intro": "Bewahren Sie nützliche Kopien auf und passen Sie die Oberfläche an.",
       "items": [
-        "Lokale Programmbibliothek mit Ordnern, Suche, Vorschauen und Vorlagen",
+        "Lokale Bibliothek wiederverwendbarer Profil- und Biegeprogrammkopien mit Ordnern, Suche, Vorschauen und Vorlagen; vollständige Projekte werden getrennt gespeichert",
         "Bibliothekseinträge duplizieren, umbenennen, verschieben, löschen und Aktionen rückgängig machen",
         "Oberflächen auf Englisch, Arabisch, Deutsch, Französisch und Italienisch",
         "Arabisches Layout von rechts nach links, helles und dunkles Design sowie gespeicherte Darstellung",
@@ -222,7 +227,7 @@
     ],
     [
       "Kommen Updates von GitHub?",
-      "GitHub Releases ist als Downloadkanal vorgesehen. Die Updateprüfung in der Anwendung ist im aktuellen Build noch nicht angebunden; das Hilfemenü weist ausdrücklich darauf hin."
+      "Bendorithm kann beim Start nach einem veröffentlichten Windows-Update suchen und es automatisch herunterladen, wenn ein signiertes Update verfügbar ist. Die Installation erfordert weiterhin Ihre Zustimmung: Speichern Sie Ihre Arbeit und schließen Sie Bendorithm, bevor Sie im Installationsprogramm fortfahren. Öffentliche Downloads setzen eine freigegebene veröffentlichte Version voraus."
     ],
     [
       "Ersetzt die Simulation die Prüfung an der Maschine?",

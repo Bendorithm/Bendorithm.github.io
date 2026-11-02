@@ -1,25 +1,17 @@
 # Bendorithm
 
-A desktop workspace for profile drawing, bend planning, machine simulation and checked machine programs.
-
 Official website: https://bendorithm.github.io/
 
-- Dimensioned drawing and CAD import
-- Bend calculations, sequence planning and collision checks on supported machines
-- Full 3D, Light 3D and Engineering 2D views
-- Project assembly, local library, BEP programs and A4 setup sheets
-- English, Arabic, German, French and Italian, with Alan Sans throughout
+Current desktop features include CAD drawing and Linear/Aligned/Angle/Radius measurements, Object Snap modes, current-view editing and model clipboard, starter profiles, bend calculation and checked planning, multidrawing projects with a48-item catalog page, unified Settings, reusable drawing Library, BEP and A4/PDF output. All eight feature groups are described in English, Arabic, German, French and Italian.
 
-## Platform availability
+## Current media
 
-The current build was developed and tested on Windows x64. Public downloads will appear on the website after a customer release is published. macOS and Linux are planned; their platform support and testing must be completed before release.
+Screenshots and the two theme walkthroughs were recorded from current0.2.0 source in an isolated browser on2November2026, with normal theme/appearance initialization and actual UI actions. A repository BEP fixture was imported through the UI; the actual complete check returned No overlap detected. This is a demonstration of that sample, not OS-picker, installed-upgrade or physical-machine acceptance. Video chapters cover the profile/program, snap choices, check, machine views, seven Settings sections and Library; this recording does not demonstrate drawing from scratch or saving/exporting a PDF.
 
-## Website
+Light and Dark recordings have matching chapter metadata, WebM/MP4 formats and captions in all five languages. Screenshots use WebP with current-media manifest hashes and720px thumbnails. Historical unused assets may remain in the repository but are excluded from the current gallery manifest. The bundled Alan Sans license is retained.
 
-This repository contains only the static website, real application screenshots and a recorded walkthrough. The desktop application source and private licensing material are not included.
+## Windows release and updates
 
-Light and Dark themes share the same copper / silver button palette as the desktop app. Each screenshot has two actual captures of the same view. The two walkthrough recordings follow the same drawing and workflow, and switching themes retains the current workflow step and playback state.
+Only a reviewed customer Installer, its updater signature and version feed are published. Automatic update download starts with the desktop workspace; installing requires explicit approval for the displayed version. Save work and close Bendorithm before continuing in setup. Projects and licensing records are retained. Public config/feed are enabled only after the exact release assets are reachable. Windows x64 requires WebView2; macOS/Linux are not released. Updater signing is separate from Authenticode publisher reputation.
 
-All images are WebP. Both walkthroughs use WebM with MP4 fallback and captions in all five languages. The bundled Alan Sans font includes its SIL Open Font License.
-
-License enquiries: Bendorithm@gmail.com
+This public site contains no application source, private licensing material or signing keys. License enquiries: Bendorithm@gmail.com

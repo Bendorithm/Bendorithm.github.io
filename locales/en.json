@@ -30,7 +30,7 @@
     "galleryIntro": "Real screenshots captured from the application. Select a view to take a closer look.",
     "yourWorkspace": "YOUR NEXT WORKSPACE",
     "downloadTitle": "Bring the next bend<br>into focus.",
-    "downloadIntro": "Bendorithm for your desktop. Find the published builds below and keep the setup notes with your work.",
+    "downloadIntro": "Prepare your next bending job on Windows. Release availability is shown below; macOS and Linux support is planned.",
     "downloadWindows": "Download for Windows",
     "downloadSoon": "Windows download coming soon",
     "releasePending": "The public download will appear here when the first GitHub release is published.",
@@ -52,9 +52,9 @@
     "workspace": "Workspace",
     "close": "Close screenshot",
     "view": "View screenshot",
-    "videoEyebrow": "FROM THE FIRST LINE",
-    "videoTitle": "One part. The complete workflow.",
-    "videoIntro": "Watch a real drawing go from setup and dimensions to a checked machine program and an A4 setup sheet.",
+    "videoEyebrow": "CURRENT WORKSPACE",
+    "videoTitle": "A tour of the current workspace.",
+    "videoIntro": "Follow an existing profile through program review, a completed collision check, machine views, Settings and the local Library.",
     "videoFallback": "Your browser cannot play this video. Download it to watch.",
     "trueLength": "TRUE LENGTH",
     "language": "Website language",
@@ -78,12 +78,15 @@
       "intro": "Build the part in a dimensioned workspace.",
       "items": [
         "Free drawing and precise line-length / angle entry",
-        "Grid, Ortho, polar tracking and object snapping",
+        "Grid, Ortho and polar tracking; selectable Endpoint, Midpoint, Intersection and Nearest object snaps",
         "Select, move, copy and rotate drawings; undo and redo",
-        "Aligned, horizontal, vertical and automatic dimensions",
+        "Horizontal/vertical Linear, Aligned, Angle and Radius measurements, alongside automatic dimensions",
         "Offset drawings, mirror geometry and linked layers",
-        "Front, top, side and 3D views; pan and zoom",
-        "CAD import with units, outline / centerline review and part selection"
+        "Select and edit in Front, Top, Side or 3D views; numeric controls handle coordinates hidden by edge-on views",
+        "CAD import with units, outline / centerline review and part selection",
+        "Inspect manual measurement reference points; annotation text, arrows and lines scale with drawing zoom",
+        "Start empty or choose an editable L, Z, U, Hat or 45° offset profile; selected setup still governs calculation and checking",
+        "Internal drawing clipboard with Ctrl+C / Ctrl+X / Ctrl+V; placement, validation and Undo/Redo remain part of the workflow"
       ]
     },
     "calculation": {
@@ -133,13 +136,15 @@
         "Project playback with completed pieces retained in the assembly",
         "Linked-layer master editing, regeneration and detachment",
         "Portable project files and password-encrypted project export",
-        "Save guards, recovery copies and unsaved-work protection"
+        "Save guards, recovery copies and unsaved-work protection",
+        "Grid or list browsing with 48 projects per page, machine filtering and page selection; saved previews load for the visible page"
       ]
     },
     "tools": {
       "title": "Work with your machine setup",
       "intro": "Use the definitions and measurements you reviewed.",
       "items": [
+        "One Settings workspace for machine profiles, tools, travel calibration, component outlines, technology tables, drawing defaults and project storage",
         "Machine profiles, per-project machine binding and new-project defaults",
         "Tool dimensions, local definitions and measured component outlines",
         "Controller-position and travel calibration with recorded limits",
@@ -153,10 +158,10 @@
       "intro": "Prepare the program and a readable setup sheet.",
       "items": [
         "BEP export gated by the current supported full check",
-        "A4 setup-sheet preview, printing and PDF output",
+        "A4 setup sheets with machine, separate thickness and strip width, tooling and full-material before/after bend frames",
         "Material, tools, dimensions, bend steps and True Length on the sheet",
         "Optional Screen Length using the confirmed machine calibration",
-        "Batch export with per-drawing readiness review",
+        "Batch export as BEP files, one combined PDF or both, with clear output names and per-drawing readiness review",
         "Separate files for machine programs and portable projects"
       ]
     },
@@ -164,7 +169,7 @@
       "title": "A workspace that feels familiar",
       "intro": "Keep useful copies and make the interface your own.",
       "items": [
-        "Local program library: folders, search, previews and templates",
+        "Local library of reusable profile and bending-program copies, with folders, search, previews and templates; complete projects are saved separately",
         "Duplicate, rename, move, delete and undo library actions",
         "English, Arabic, German, French and Italian interfaces",
         "Arabic right-to-left layout, Light / Dark themes and saved appearance",
@@ -222,7 +227,7 @@
     ],
     [
       "Will updates come from GitHub?",
-      "GitHub Releases is the planned download channel. In-app update checking is not connected in the current build; the Help menu states this explicitly."
+      "Bendorithm can check for a published Windows update at startup and download it automatically when a signed update is available. Installation still requires your approval: save your work and close Bendorithm before continuing in the installer. Public downloads depend on an approved published release."
     ],
     [
       "Does simulation replace machine validation?",

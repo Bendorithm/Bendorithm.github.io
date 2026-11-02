@@ -58,7 +58,7 @@ function updateImageDescriptions() {
 function renderGallery() {
   const filters = document.querySelector('#gallery-filters'), root = document.querySelector('#gallery-grid');
   filters.replaceChildren();
-  for (const id of ['all', 'drawing', 'machine', 'planning', 'projects', 'tools', 'export', 'workspace']) {
+  for (const id of ['all', ...featureIds.filter(group => screenshots.some(shot => shot.group === group && available.has(shot.id)))]) {
     const button = node('button', '', content().copy[id]);
     button.type = 'button';
     button.setAttribute('aria-pressed', String(category === id));

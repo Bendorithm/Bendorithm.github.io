@@ -2,68 +2,92 @@
   "theme": "light",
   "steps": [
     {
-      "label": "Create a new drawing",
-      "time": 0.00005810000000201398
+      "label": "Welcome",
+      "time": 0
     },
     {
-      "label": "Set the material, thickness, width and tools",
-      "time": 2.1236503000000013
+      "label": "Projects",
+      "time": 3.057
     },
     {
-      "label": "Review the drawing setup",
-      "time": 4.501859600000003
+      "label": "Profile and overall dimensions",
+      "time": 6.278
     },
     {
-      "label": "Draw precise geometry from scratch",
-      "time": 6.574374300000003
+      "label": "Object snap types",
+      "time": 9.31
     },
     {
-      "label": "Review the profile dimensions and calculated values",
-      "time": 12.939086000000003
+      "label": "Drawing segments",
+      "time": 12.404
     },
     {
-      "label": "Review the bend order, angle and True Length",
-      "time": 16.2650878
+      "label": "Program",
+      "time": 15.485
     },
     {
-      "label": "The real complete check approves the drawing",
-      "time": 21.138334999999998
+      "label": "Actual check result",
+      "time": 19.091
     },
     {
-      "label": "Inspect the machine simulation",
-      "time": 23.5871564
+      "label": "Machine: Shaded",
+      "time": 23.219
     },
     {
-      "label": "Review the completed full-check result",
-      "time": 35.8571426
+      "label": "Machine: Realistic",
+      "time": 27.292
     },
     {
-      "label": "Export is enabled for the checked drawing",
-      "time": 36.937658299999995
+      "label": "Machine: Wireframe",
+      "time": 30.391
     },
     {
-      "label": "BEP program exported",
-      "time": 40.4027856
+      "label": "Settings: Machine profiles",
+      "time": 33.526
     },
     {
-      "label": "Preview the A4 setup sheet for printing or PDF",
-      "time": 42.544189599999996
+      "label": "Settings: Machine & tools",
+      "time": 36.589
+    },
+    {
+      "label": "Settings: Travel calibration",
+      "time": 39.652
+    },
+    {
+      "label": "Settings: Component outlines",
+      "time": 42.715
+    },
+    {
+      "label": "Settings: Technology tables",
+      "time": 45.813
+    },
+    {
+      "label": "Settings: Drawing defaults",
+      "time": 48.892
+    },
+    {
+      "label": "Settings: Project storage",
+      "time": 51.959
+    },
+    {
+      "label": "Library",
+      "time": 55.133
     }
   ],
-  "duration": 47.631737300000005,
-  "initialLoadingTrimmedSeconds": 27.68826269999999,
+  "duration": 60.56,
+  "initialLoadingTrimmedSeconds": 14.98,
   "formats": [
     {
       "file": "walkthrough.webm",
       "codec": "WebM / VP9",
-      "bytes": 1526074,
-      "sha256": "dc6e58d5c6460c9a3b903a314372b6002a7812d83568543b7f07a1c57f3a4dbe"
+      "bytes": 2356427,
+      "sha256": "38b92e7c5d5ffd6f16048db5ba37aa31b30c8acc299f084ca09c6bad3abc51dd"
     },
     {
       "file": "walkthrough.mp4",
       "codec": "MP4 / H.264",
-      "bytes": 2343140,
-      "sha256": "1c5519cdad009203deebebdc90e2edc09a2547c6ecc69f4df00a5a37b5bc88d9"
+      "bytes": 1520293,
+      "sha256": "d8690e30cbe42dfa2d2f4c37a1bb5042c4edf27e50ff4c6c84c9e5497d4e7e11"
     }
   ],
   "captions": [
@@ -74,6 +98,6 @@
     "ar"
   ],
   "audio": false,
-  "recordedFrom": "Actual source application, no drawing imported or injected; real checks and downloaded BEP.",
+  "recordedFrom": "Initialized current source application in isolated browser, repository fixture imported via UI; real sampled check.",
   "workflowSpeed": "original"
 }

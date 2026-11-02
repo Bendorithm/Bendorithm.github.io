@@ -30,7 +30,7 @@
     "galleryIntro": "Schermate reali acquisite dall’applicazione durante l’uso. Seleziona una vista per osservare i dettagli.",
     "yourWorkspace": "LA TUA PROSSIMA AREA DI LAVORO",
     "downloadTitle": "La prossima piega,<br>ben a fuoco.",
-    "downloadIntro": "Bendorithm per il tuo desktop. Trova qui le versioni pubblicate e conserva le schede di attrezzaggio insieme al tuo lavoro.",
+    "downloadIntro": "Preparate il prossimo lavoro di piega su Windows. La disponibilità della versione è indicata sotto; il supporto per macOS e Linux è previsto.",
     "downloadWindows": "Scarica per Windows",
     "downloadSoon": "Download Windows presto disponibile",
     "releasePending": "Il download pubblico apparirà qui dopo la pubblicazione della prima versione su GitHub.",
@@ -52,9 +52,9 @@
     "workspace": "Area di lavoro",
     "close": "Chiudi schermata",
     "view": "Visualizza schermata",
-    "videoEyebrow": "DALLA PRIMA LINEA",
-    "videoTitle": "Un pezzo. L’intero processo.",
-    "videoIntro": "Segui un disegno reale dalle impostazioni e dalle quote fino al programma macchina verificato e alla scheda di attrezzaggio A4.",
+    "videoEyebrow": "AREA DI LAVORO ATTUALE",
+    "videoTitle": "Un tour dell’area di lavoro attuale.",
+    "videoIntro": "Seguite un profilo esistente nella revisione del programma e in un controllo delle collisioni completato, poi esplorate le viste macchina, le impostazioni e la libreria locale.",
     "videoFallback": "Il browser non può riprodurre questo video. Scaricalo per guardarlo.",
     "trueLength": "LUNGHEZZA REALE",
     "language": "Lingua del sito",
@@ -78,12 +78,15 @@
       "intro": "Costruisci il pezzo in un’area di lavoro quotata.",
       "items": [
         "Disegno libero e inserimento preciso di lunghezza e angolo delle linee",
-        "Griglia, modalità ortogonale, tracciamento polare e aggancio agli oggetti",
+        "Griglia, modalità ortogonale e tracciamento polare; snap selezionabili a estremi, punti medi, intersezioni e punti più vicini",
         "Selezione, spostamento, copia e rotazione dei disegni; annulla e ripristina",
-        "Quote allineate, orizzontali, verticali e automatiche",
+        "Quote lineari orizzontali/verticali, allineate, angolari e di raggio, oltre alle quote automatiche",
         "Disegni sfalsati, geometria speculare e livelli collegati",
-        "Viste frontale, superiore, laterale e 3D; panoramica e zoom",
-        "Importazione CAD con verifica delle unità, del contorno o della linea mediana e selezione dei pezzi"
+        "Selezionare e modificare nelle viste frontale, superiore, laterale o 3D; i controlli numerici gestiscono le coordinate nascoste nelle viste di taglio",
+        "Importazione CAD con verifica delle unità, del contorno o della linea mediana e selezione dei pezzi",
+        "Mostrare i punti di riferimento delle quote manuali; testi, frecce e linee seguono lo zoom del disegno",
+        "Iniziare da zero o scegliere un profilo modificabile L, Z, U, a cappello o sfalsato di 45°; calcolo e verifica dipendono dalla configurazione scelta",
+        "Appunti interni per i disegni con Ctrl+C / Ctrl+X / Ctrl+V; posizionamento, convalida e Annulla/Ripeti restano parte del flusso"
       ]
     },
     "calculation": {
@@ -133,13 +136,15 @@
         "Riproduzione del progetto mantenendo i pezzi completati nell’assemblaggio",
         "Modifica del disegno principale dei livelli collegati, rigenerazione e scollegamento",
         "File di progetto portabili ed esportazione del progetto cifrata con password",
-        "Controlli al salvataggio, copie di recupero e protezione del lavoro non salvato"
+        "Controlli al salvataggio, copie di recupero e protezione del lavoro non salvato",
+        "Navigazione a griglia o elenco con 48 progetti per pagina, filtro per macchina e selezione della pagina; le anteprime dei progetti salvati vengono caricate solo per la pagina visibile"
       ]
     },
     "tools": {
       "title": "Lavora con le impostazioni della tua macchina",
       "intro": "Usa le definizioni e le misure che hai verificato.",
       "items": [
+        "Un’area Impostazioni per profili macchina, utensili, calibrazione delle corse, contorni dei componenti, tabelle tecnologiche, valori predefiniti e archiviazione dei progetti",
         "Profili macchina, associazione per progetto e impostazioni predefinite per i nuovi progetti",
         "Dimensioni degli utensili, definizioni locali e contorni dei componenti misurati",
         "Calibrazione delle posizioni del controllo e delle corse con limiti registrati",
@@ -153,10 +158,10 @@
       "intro": "Prepara il programma e una scheda di attrezzaggio leggibile.",
       "items": [
         "Esportazione BEP consentita dopo la verifica completa attuale supportata",
-        "Anteprima, stampa e uscita PDF della scheda di attrezzaggio A4",
+        "Schede A4 con macchina, spessore e larghezza del nastro separati, utensili e materiale completo prima/dopo la piega",
         "Materiale, utensili, quote, passaggi di piegatura e lunghezza reale nella scheda",
         "Lunghezza a schermo facoltativa basata sulla calibrazione macchina confermata",
-        "Esportazione in serie con verifica della prontezza di ogni disegno",
+        "Esportazione in serie come file BEP, un PDF combinato o entrambi, con nomi chiari e verifica di ogni disegno",
         "File separati per i programmi macchina e i progetti portabili"
       ]
     },
@@ -164,7 +169,7 @@
       "title": "Un’area di lavoro familiare",
       "intro": "Conserva le copie utili e personalizza l’interfaccia.",
       "items": [
-        "Libreria locale dei programmi: cartelle, ricerca, anteprime e modelli",
+        "Libreria locale di copie riutilizzabili di profili e programmi di piega, con cartelle, ricerca, anteprime e modelli; i progetti completi si salvano separatamente",
         "Duplicazione, rinomina, spostamento, eliminazione e annullamento delle azioni nella libreria",
         "Interfacce in inglese, arabo, tedesco, francese e italiano",
         "Layout arabo da destra a sinistra, temi chiaro e scuro e preferenze salvate",
@@ -222,7 +227,7 @@
     ],
     [
       "Gli aggiornamenti arriveranno da GitHub?",
-      "GitHub Releases è il canale di download previsto. La verifica degli aggiornamenti nell’applicazione non è ancora collegata nella versione attuale; il menu di aiuto lo indica esplicitamente."
+      "Bendorithm può verificare all’avvio la presenza di un aggiornamento Windows pubblicato e scaricarlo automaticamente quando è disponibile un aggiornamento firmato. L’installazione richiede comunque la vostra approvazione: salvate il lavoro e chiudete Bendorithm prima di proseguire nel programma di installazione. I download pubblici dipendono da una versione pubblicata e approvata."
     ],
     [
       "La simulazione sostituisce la validazione sulla macchina?",
